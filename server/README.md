@@ -1,128 +1,73 @@
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-Welcome to the Summer Camp School project [SERVER]! This is an e-learning website that provides a platform for organizing and managing summer camp activities and courses online. It offers a range of features for administrators, instructors, and students to enhance the summer camp learning experience.
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-## Features
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-- User authentication and authorization
-- Course Create,Update,Delete,Read
-- Interactive learning materials
-- Discussion forums
-- Assignments and assessments
-- Progress tracking
-- Notifications and announcements
+## Description
 
-## Technologies Used
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-- Backend: Node.js, Express.js,Typescript
-- Database: MongoDB
-- Deployment: Vercel
-- Authentication: JWT
-- Packages Used: bcrypt,http-errors,http-status-codes,zod
+## Installation
 
-
-If you have any questions, feel free to reach out to us:
-
-- Email: hasibulislam1670@gmail.com
-- Website: https://client-summer-school.vercel.app/
-- GitHub: https://github.com/hasibul1670
-
-
-#### Summer Camp School project 
-### Live Link(vercel): https://summer-camp-school-server-sigma.vercel.app
-### Application Routes:
-#### student
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students/create-students [POST]
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students [get all users] (GET)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students/6497381fc9fbf4e29d55ee7f (get Single student) (GET)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students/6497381fc9fbf4e29d55ee7f (Update Single student) (PATCH)
-
-#### instructor
-
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/instructors/create-Instructor [create an Instructor]  [POST]
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students/create-students [POST]
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students/6497381fc9fbf4e29d55ee7f (get Single student) (GET)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/students/6497381fc9fbf4e29d55ee7f (Update Single student) (PATCH)
-#### courses
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/courses/create-courses [create a courses] (POST)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/courses [get all courses] (GET)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/courses/648ca42c17d2d4e64a734513 [create a single courses] (GET)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/courses/648ca42c17d2d4e64a734513 [Update a single courses] (PATCH)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/courses/648ca42c17d2d4e64a734513 [Delete a single courses] (DELETE)
-
-
-#### Login
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/auth/login [Login] (POST)
-- https://summer-camp-school-server-sigma.vercel.app/api/v1/auth/change-password (POST)
-### Sample courses Data for create a courses
-
-```json
-{
-  "title": "Introduction to Python",
-  "year": "2023",
-  "startMonth": "January",
-  "endMonth": "March"
-}
-```
-### Sample courses Data for create a Student
-
-```json
-{
-  "name": {
-    "firstName": "luka",
-    "lastName": "Doe48"
-  },
-  "gender": "male",
-  "role": "student",
-  "dateOfBirth": "1990-01-01",
-  "email": "luka@gmail.com",
-  "contactNo": "1234567890",
-  "address": "123 Main St, City"
-}
-```
-### Sample courses Data for create an instructor
-
-```json
-{
-  "role": "instructor",
-  "email": "john@example.com",
-  "name": {
-    "firstName": "John",
-    "lastName": "Doe"
-  },
-  "phoneNumber": "123-456-7890",
-  "address": "123 Main Street",
-  "expertise": "Computer Science",
-  "course": "64972c9866bfd19bfa9c412b"
-}
+```bash
+$ yarn install
 ```
 
+## Running the app
 
+```bash
+# development
+$ yarn run start
 
+# watch mode
+$ yarn run start:dev
 
-### Sample courses Order Data to create a Order
-
-```json
-{
-  "courses": "648dbe893f8caeacd1d92178",
-  "student": "648dbdd53f8caeacd1d92154"
-}
+# production mode
+$ yarn run start:prod
 ```
 
-### Password Chnage Data Sample 
+## Test
 
-```json
-{
-  "oldPassword":"110330",
-  "newPassword":"110220"
-}
-```
-### Login Data Sample (POST)[POST]
+```bash
+# unit tests
+$ yarn run test
 
-```json
-{
-  "password": "110220",
-  "email": "rika@gmail.com"
-}
+# e2e tests
+$ yarn run test:e2e
+
+# test coverage
+$ yarn run test:cov
 ```
 
+## Support
 
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
