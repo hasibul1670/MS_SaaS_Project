@@ -1,12 +1,22 @@
-import { Body, Controller, Post } from '@nestjs/common';
+import { Body, Controller, Post, ValidationPipe } from '@nestjs/common';
+import { ApiResponse } from 'src/interface/common/apiResponse';
 import { DatabaseService } from './database-service.service';
+import { CreateTenantDto } from './dto/databse-service.dto';
 
 @Controller('database')
 export class DatabaseController {
   constructor(private readonly databaseService: DatabaseService) {}
 
   @Post('create-database')
-  async createDatabase(@Body('dbName') dbName: string): Promise<any> {
-    return this.databaseService.createDatabase(dbName);
+  async createDatabase(
+    @Body(ValidationPipe) body: CreateTenantDto,
+  ): Promise<ApiResponse<any>> {
+    const result = await this.databaseService.createDatabase(body);
+    return {
+      status: 'success',
+      statusCode: '200',
+      message: `Database is created successfully.`,
+      data: result,
+    };
   }
 }

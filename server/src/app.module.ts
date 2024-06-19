@@ -8,6 +8,7 @@ import { ProductModule } from './product/product.module';
 import { TenantModule } from './tenant/tenant.module';
 import { UserModule } from './user/user.module';
 import { DatabaseServiceModule } from './database-service/database-service.module';
+import { BillModule } from './bill/bill.module';
 
 @Module({
   imports: [
@@ -29,6 +30,7 @@ import { DatabaseServiceModule } from './database-service/database-service.modul
     TenantModule,
     AuthModule,
     DatabaseServiceModule,
+    BillModule,
   ],
   controllers: [],
   providers: [],

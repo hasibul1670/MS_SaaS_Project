@@ -1,11 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { Connection, Document, Model, Schema, connect } from 'mongoose';
-
-interface TenantDocument extends Document {
-  tenantId: string;
-}
+import { Connection, connect } from 'mongoose';
+import { ApiError } from 'src/helpers/utills/ApiError';
+import { TenantModel } from './database-service.model';
+import { CreateTenantDto } from './dto/databse-service.dto';
 
 @Injectable()
 export class DatabaseService {
@@ -23,60 +22,20 @@ export class DatabaseService {
     this.masterDbConnection = (await connect(masterDbUri)).connection;
   }
 
-  async createDatabase(dbName: string): Promise<string> {
-    const createDbUri = this.configService.get<string>('CREATE_DB_URI');
-    if (!createDbUri) {
-      throw new Error('CREATE_DB_URI is not defined in the configuration');
-    }
-
-    const connectionString = `${createDbUri}/tenant_${dbName}`;
-
-    const dbRegistrationResult = await this.registerTenantDb(
-      dbName,
-      connectionString,
-    );
-    console.log(
-      '🚀 ~ DatabaseService ~ createDatabase ~ dbRegistrationResult:',
-      dbRegistrationResult,
-    );
-
-    if (dbRegistrationResult) {
-      return `Database tenant-${dbName} created and registered successfully`;
-    } else {
-      throw new Error(
-        'Failed to register the new tenant database in the master database',
-      );
-    }
-  }
-
-  private async registerTenantDb(
-    dbName: string,
-    connectionString: string,
-  ): Promise<boolean> {
+  async createDatabase(payload: CreateTenantDto): Promise<any> {
+    const dbName = payload.tenantId;
     try {
-      const tenantSchema = new Schema<TenantDocument>({
-        tenantId: { type: String, required: true },
-      });
-
-      const TenantModel: Model<TenantDocument> =
-        this.masterDbConnection.model<TenantDocument>('Tenant', tenantSchema);
-
-      const newTenant = new TenantModel({
-        tenantId: dbName,
-      });
-
-      // Validate the new tenant before saving
-      const validationResult = newTenant.validateSync();
-      if (validationResult) {
-        console.error('Tenant validation failed:', validationResult.errors);
-        return false;
-      }
-
-      await newTenant.save();
-      return true;
+      const res = await TenantModel.create(payload);
+      return res;
     } catch (error) {
-      console.error('Error registering tenant DB:', error);
-      return false;
+      if (error instanceof HttpException) {
+        throw error;
+      }
+      throw ApiError(
+        HttpStatus.INTERNAL_SERVER_ERROR,
+        `Failed to create database '${dbName}'`,
+        error.message,
+      );
     }
   }
 }
