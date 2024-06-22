@@ -1,7 +1,7 @@
 import { HttpStatus } from '@nestjs/common';
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-import { ApiError } from 'src/helpers/utills/ApiError';
+import { ApiError } from '../helpers/utills/ApiError';
 import { TenantModel } from './database-service.model';
 import { CreateTenantDto } from './dto/databse-service.dto';
 import { BillingInfo, CompanyInfo } from './entities/database-service.entity';

@@ -2,7 +2,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Connection, connect } from 'mongoose';
-import { ApiError } from 'src/helpers/utills/ApiError';
+import { ApiError } from '../helpers/utills/ApiError';
 import { TenantModel } from './database-service.model';
 import { CreateTenantDto } from './dto/databse-service.dto';
 

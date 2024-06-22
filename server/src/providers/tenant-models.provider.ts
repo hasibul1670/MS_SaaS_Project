@@ -1,5 +1,5 @@
-import { createModelProvider } from 'src/helpers/utills/tenantUtils';
-import { Product, ProductSchema } from 'src/product/product.model';
+import { createModelProvider } from '../helpers/utills/tenantUtils';
+import { Product, ProductSchema } from '../product/product.model';
 
 const productModelProvider = createModelProvider(
   Product.name,

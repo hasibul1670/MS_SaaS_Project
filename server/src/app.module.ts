@@ -9,6 +9,7 @@ import { TenantModule } from './tenant/tenant.module';
 import { UserModule } from './user/user.module';
 import { DatabaseServiceModule } from './database-service/database-service.module';
 import { BillModule } from './bill/bill.module';
+import { AppController } from './app.controller';
 
 @Module({
   imports: [
@@ -32,7 +33,7 @@ import { BillModule } from './bill/bill.module';
     DatabaseServiceModule,
     BillModule,
   ],
-  controllers: [],
+  controllers: [AppController],
   providers: [],
 })
 export class AppModule implements NestModule {

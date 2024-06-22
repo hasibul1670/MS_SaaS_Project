@@ -5,7 +5,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { NextFunction, Request, Response } from 'express';
-import { TenantsService } from 'src/tenant/tenant.service';
+import { TenantsService } from '../tenant/tenant.service';
 
 @Injectable()
 export class TenantsMiddleware implements NestMiddleware {
