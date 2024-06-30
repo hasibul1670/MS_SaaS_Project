@@ -1,9 +1,9 @@
 import { Global, Module } from '@nestjs/common';
 
 import { MongooseModule } from '@nestjs/mongoose';
+import { tenantConnectionProvider } from 'src/providers/tenant-connection.provider';
 import { Tenant, TenantSchema } from './tenant.model';
 import { TenantsService } from './tenant.service';
-import { tenantConnectionProvider } from '../providers/tenant-connection.provider';
 
 @Global()
 @Module({

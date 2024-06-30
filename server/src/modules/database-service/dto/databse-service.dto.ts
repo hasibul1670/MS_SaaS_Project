@@ -59,10 +59,6 @@ export class CreateTenantDto {
   @IsNotEmpty({ message: 'Tenant ID is required' })
   tenantId: string;
 
-  @ValidateNested({ each: true })
-  @Type(() => CompanyInfoDto)
-  companyInfo: CompanyInfoDto;
-
   @IsBoolean({ message: 'Active status must be a boolean' })
   activeStatus: boolean;
 
@@ -71,6 +67,10 @@ export class CreateTenantDto {
       'Subscription plan must be one of: free, basic, premium, enterprise',
   })
   subscriptionPlan: 'free' | 'basic' | 'premium' | 'enterprise';
+
+  @ValidateNested({ each: true })
+  @Type(() => CompanyInfoDto)
+  companyInfo: CompanyInfoDto;
 
   @ValidateNested()
   @Type(() => BillingInfoDto)

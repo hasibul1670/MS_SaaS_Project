@@ -1,7 +1,7 @@
 import { HttpStatus } from '@nestjs/common';
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-import { ApiError } from '../helpers/utills/ApiError';
+import { ApiError } from '../../helpers/utills/ApiError';
 import { TenantModel } from './database-service.model';
 import { CreateTenantDto } from './dto/databse-service.dto';
 import { BillingInfo, CompanyInfo } from './entities/database-service.entity';
@@ -10,9 +10,6 @@ import { BillingInfo, CompanyInfo } from './entities/database-service.entity';
 export class Tenant extends Document implements CreateTenantDto {
   @Prop({ type: String, required: true })
   tenantId: string;
-
-  @Prop({ type: [CompanyInfo], required: true })
-  companyInfo: CompanyInfo;
 
   @Prop({ type: Boolean, required: true })
   activeStatus: boolean;
@@ -23,6 +20,9 @@ export class Tenant extends Document implements CreateTenantDto {
     enum: ['free', 'basic', 'premium', 'enterprise'],
   })
   subscriptionPlan: 'free' | 'basic' | 'premium' | 'enterprise';
+
+  @Prop({ type: CompanyInfo, required: true })
+  companyInfo: CompanyInfo;
 
   @Prop({ type: BillingInfo, required: true })
   billingInfo: BillingInfo;

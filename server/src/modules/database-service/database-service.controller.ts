@@ -1,5 +1,5 @@
 import { Body, Controller, Post, ValidationPipe } from '@nestjs/common';
-import { ApiResponse } from '../interface/common/apiResponse';
+import { ApiResponse } from '../../interface/common/apiResponse';
 import { DatabaseService } from './database-service.service';
 import { CreateTenantDto } from './dto/databse-service.dto';
 

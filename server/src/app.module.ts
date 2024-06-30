@@ -1,15 +1,17 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
-import { AuthModule } from './auth/auth.module';
+import { AppController } from './app.controller';
 import config from './dbConfig/config';
 import { LoggerMiddleware } from './helpers/logger/logger.middleware';
-import { ProductModule } from './product/product.module';
-import { TenantModule } from './tenant/tenant.module';
-import { UserModule } from './user/user.module';
-import { DatabaseServiceModule } from './database-service/database-service.module';
-import { BillModule } from './bill/bill.module';
-import { AppController } from './app.controller';
+import { AdminModule } from './modules/admin/admin.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { BillModule } from './modules/bill/bill.module';
+import { DatabaseServiceModule } from './modules/database-service/database-service.module';
+import { ProductModule } from './modules/product/product.module';
+import { SuperAdminModule } from './modules/super-admin/super-admin.module';
+import { TenantModule } from './modules/tenant/tenant.module';
+import { UserModule } from './modules/user/user.module';
 
 @Module({
   imports: [
@@ -32,6 +34,8 @@ import { AppController } from './app.controller';
     AuthModule,
     DatabaseServiceModule,
     BillModule,
+    SuperAdminModule,
+    AdminModule,
   ],
   controllers: [AppController],
   providers: [],
