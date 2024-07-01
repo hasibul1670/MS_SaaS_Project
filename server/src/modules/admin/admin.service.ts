@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { bcryptPasword } from 'src/helpers/bcryptPasword/bcryptPasword';
+import { bcryptPasword } from '../../helpers/bcryptPasword/bcryptPasword';
 import { CreateAdminDto } from './dto/create-admin.dto';
 import { UpdateAdminDto } from './dto/update-admin.dto';
 import { AdminModel } from './schema/admin.schema';

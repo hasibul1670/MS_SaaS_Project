@@ -12,6 +12,7 @@ import { ProductModule } from './modules/product/product.module';
 import { SuperAdminModule } from './modules/super-admin/super-admin.module';
 import { TenantModule } from './modules/tenant/tenant.module';
 import { UserModule } from './modules/user/user.module';
+import { FeaturesModule } from './modules/features/features.module';
 
 @Module({
   imports: [
@@ -36,6 +37,7 @@ import { UserModule } from './modules/user/user.module';
     BillModule,
     SuperAdminModule,
     AdminModule,
+    FeaturesModule,
   ],
   controllers: [AppController],
   providers: [],

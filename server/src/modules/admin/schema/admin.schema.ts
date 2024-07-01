@@ -1,7 +1,7 @@
 import { HttpStatus } from '@nestjs/common';
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Types, model } from 'mongoose';
-import { ApiError } from 'src/helpers/utills/ApiError';
+import { ApiError } from '../../../helpers/utills/ApiError';
 import { CreateAdminDto } from '../dto/create-admin.dto';
 
 @Schema()
@@ -14,6 +14,14 @@ export class Admin extends Document implements CreateAdminDto {
   password: string;
   @Prop({ type: Types.ObjectId, ref: 'Tenant', required: true })
   tenantId: string;
+  @Prop({ type: Boolean, required: true })
+  isActive: boolean;
+  @Prop({ type: String, required: true })
+  approvedBy: string;
+  @Prop({ type: String, required: true })
+  createdBy: string;
+  @Prop({ type: [String], required: true })
+  allowedModule: string[];
 }
 
 export const AdminSchema = SchemaFactory.createForClass(Admin);

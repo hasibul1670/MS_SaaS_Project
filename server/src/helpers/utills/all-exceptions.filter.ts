@@ -8,7 +8,7 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { Request, Response } from 'express';
-import { ApiResponse } from 'src/interface/common/apiResponse';
+import { ApiResponse } from '../../interface/common/apiResponse';
 
 @Catch()
 export class AllExceptionsFilter implements ExceptionFilter {

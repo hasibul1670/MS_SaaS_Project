@@ -1,6 +1,6 @@
 // validation-pipe.config.ts
 
-import { HttpStatus, ValidationPipe } from '@nestjs/common';
+import { ValidationPipe } from '@nestjs/common';
 import { ApiError } from './ApiError';
 
 export const validationPipe = new ValidationPipe({
@@ -11,10 +11,7 @@ export const validationPipe = new ValidationPipe({
     const messages = errors.map(
       (error) => `${Object.values(error.constraints).join(', ')}`,
     );
-    return ApiError(
-      HttpStatus.BAD_REQUEST,
-      'Validation failed',
-      messages.join(' | '),
-    );
+    console.log('🚀 ~ messages:', messages);
+    return ApiError(400, `Validation failed : ${messages[0]}`, messages[1]);
   },
 });

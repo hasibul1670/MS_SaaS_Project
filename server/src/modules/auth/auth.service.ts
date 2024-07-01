@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { HttpStatus, Injectable } from '@nestjs/common';
-import { JwtTokenGeneratorService } from 'src/helpers/JwtTokenGeneratorService/JwtTokenGeneratorService';
-import { bcryptPasword } from 'src/helpers/bcryptPasword/bcryptPasword';
-import { ApiError } from 'src/helpers/utills/ApiError';
+import { JwtTokenGeneratorService } from '../../helpers/JwtTokenGeneratorService/JwtTokenGeneratorService';
+import { bcryptPasword } from '../../helpers/bcryptPasword/bcryptPasword';
+import { ApiError } from '../../helpers/utills/ApiError';
 import { AdminModel } from '../admin/schema/admin.schema';
 import { LoginAuthDto } from './dto/login-auth.dto';
 import { UpdateAuthDto } from './dto/update-auth.dto';
@@ -13,6 +13,7 @@ export class AuthService {
     private readonly passwordService: bcryptPasword,
     private readonly jwtTokenService: JwtTokenGeneratorService,
   ) {}
+
   async login(loginAuthDto: LoginAuthDto) {
     const { email, password } = loginAuthDto;
     const admin = await AdminModel.findOne({ email: email }).populate(

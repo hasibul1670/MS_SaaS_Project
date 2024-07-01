@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { bcryptPasword } from 'src/helpers/bcryptPasword/bcryptPasword';
+import { bcryptPasword } from '../../helpers/bcryptPasword/bcryptPasword';
 import { AdminController } from './admin.controller';
 import { AdminService } from './admin.service';
 

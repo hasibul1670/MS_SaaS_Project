@@ -3,23 +3,46 @@ import {
   Injectable,
   NestMiddleware,
   NotFoundException,
+  UnauthorizedException,
 } from '@nestjs/common';
 import { NextFunction, Request, Response } from 'express';
-import { TenantsService } from 'src/modules/tenant/tenant.service';
+import * as jwt from 'jsonwebtoken';
+import { TenantsService } from '../modules/tenant/tenant.service';
 
 @Injectable()
 export class TenantsMiddleware implements NestMiddleware {
   constructor(private tenantsService: TenantsService) {}
 
   async use(req: Request, res: Response, next: NextFunction) {
-    const tenantId = req.headers['x-tenant-id']?.toString();
-    if (!tenantId) {
-      throw new BadRequestException('X-TENANT-ID not provided');
+    const tenantIdHeader = req.headers['x-tenant-id']?.toString();
+    let tenantId = tenantIdHeader;
+
+    if (!tenantIdHeader) {
+      const authorizationHeader = req.headers['authorization'];
+      if (!authorizationHeader) {
+        throw new BadRequestException(
+          'X-TENANT-ID not provided and Authorization header not provided',
+        );
+      }
+      try {
+        const decodedToken: any = jwt.decode(authorizationHeader);
+        tenantId = decodedToken?.tenantId?.tenantId;
+      } catch (error) {
+        throw new UnauthorizedException('Invalid token');
+      }
+
+      if (!tenantId) {
+        throw new BadRequestException(
+          'X-TENANT-ID not provided and tenantId not found in token',
+        );
+      }
     }
-    const tenantExits = await this.tenantsService.getTenantById(tenantId);
-    if (!tenantExits) {
+
+    const tenantExists = await this.tenantsService.getTenantById(tenantId);
+    if (!tenantExists) {
       throw new NotFoundException('Tenant does not exist');
     }
+
     req['tenantId'] = tenantId;
     next();
   }
