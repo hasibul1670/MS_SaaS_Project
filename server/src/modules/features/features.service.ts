@@ -1,17 +1,23 @@
 import { Injectable } from '@nestjs/common';
+import { ApiError } from '../../helpers/utills/ApiError';
 import { CreateFeatureDto } from './dto/create-feature.dto';
 import { UpdateFeatureDto } from './dto/update-feature.dto';
-import { FeatureSchema } from './entities/feature.schema';
+import { FeatureModel } from './entities/feature.schema';
 
 @Injectable()
 export class FeaturesService {
   async create(createFeatureDto: CreateFeatureDto) {
-    const res = await FeatureSchema.create(createFeatureDto);
-    return res;
+    try {
+      const res = await FeatureModel.create(createFeatureDto);
+      return res;
+    } catch (error) {
+      throw ApiError(400, 'Error Occured !!', error.message);
+    }
   }
 
-  findAll() {
-    return `This action returns all features`;
+  async findAll() {
+    const res = await FeatureModel.find();
+    return res;
   }
 
   findOne(id: number) {
@@ -19,6 +25,10 @@ export class FeaturesService {
   }
 
   update(id: number, updateFeatureDto: UpdateFeatureDto) {
+    console.log(
+      '🚀 ~ FeaturesService ~ update ~ updateFeatureDto:',
+      updateFeatureDto,
+    );
     return `This action updates a #${id} feature`;
   }
 

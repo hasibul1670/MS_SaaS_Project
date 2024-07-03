@@ -7,7 +7,7 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
-import { createApiResponse } from 'src/helpers/utills/common-response';
+import { createApiResponse } from '../../helpers/utills/common-response';
 import { CreateFeatureDto } from './dto/create-feature.dto';
 import { UpdateFeatureDto } from './dto/update-feature.dto';
 import { FeaturesService } from './features.service';
@@ -16,9 +16,9 @@ import { FeaturesService } from './features.service';
 export class FeaturesController {
   constructor(private readonly featuresService: FeaturesService) {}
 
-  @Post()
-  create(@Body() createFeatureDto: CreateFeatureDto) {
-    const result = this.featuresService.create(createFeatureDto);
+  @Post('create-features')
+  async create(@Body() createFeatureDto: CreateFeatureDto) {
+    const result = await this.featuresService.create(createFeatureDto);
     return createApiResponse(
       'success',
       200,
@@ -27,7 +27,7 @@ export class FeaturesController {
     );
   }
 
-  @Get()
+  @Get('all-features')
   findAll() {
     return this.featuresService.findAll();
   }
