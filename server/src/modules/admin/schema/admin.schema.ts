@@ -6,14 +6,18 @@ import { CreateAdminDto } from '../dto/create-admin.dto';
 
 @Schema()
 export class Admin extends Document implements CreateAdminDto {
-  @Prop({ type: String, required: true })
+  @Prop({ type: String })
   userName: string;
-  @Prop({ type: String, required: true })
+  @Prop({ type: String })
   email: string;
+  @Prop({ type: String, default: 'admin' })
+  role: string;
   @Prop({ type: String, required: true })
   password: string;
   @Prop({ type: Types.ObjectId, ref: 'Tenant', required: true })
   tenantId: string;
+  @Prop({ type: Types.ObjectId, ref: 'Feature', required: true })
+  module: string;
   @Prop({ type: Boolean, required: true })
   isActive: boolean;
   @Prop({ type: String, required: true })

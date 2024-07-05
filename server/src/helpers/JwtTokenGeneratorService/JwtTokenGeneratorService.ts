@@ -8,14 +8,14 @@ export class JwtTokenGeneratorService {
   generateAccessToken(payload: any): string {
     return this.jwtService.sign(payload, {
       secret: process.env.JWT_ACCESS_SECRET,
-      expiresIn: '15m',
+      expiresIn: process.env.JWT_EXPIRES_IN,
     });
   }
 
   generateRefreshToken(payload: any): string {
     return this.jwtService.sign(payload, {
       secret: process.env.JWT_REFRESH_SECRET,
-      expiresIn: '7d',
+      expiresIn: process.env.JWT_REFRESH_EXPIRES_IN,
     });
   }
 }

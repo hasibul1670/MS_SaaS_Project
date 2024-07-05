@@ -26,7 +26,9 @@ export class AdminService {
   }
 
   async findOne(id: number) {
-    const res = await AdminModel.findOne({ userName: id }).populate('tenantId');
+    const res = (
+      await AdminModel.findOne({ userName: id }).populate('tenantId')
+    ).populate('module');
     return res;
   }
 

@@ -28,13 +28,25 @@ export class FeaturesController {
   }
 
   @Get('all-features')
-  findAll() {
-    return this.featuresService.findAll();
+  async findAll() {
+    const res = await this.featuresService.findAll();
+    return createApiResponse(
+      'success',
+      200,
+      'Fetched All Features successfully.',
+      res,
+    );
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.featuresService.findOne(+id);
+  async findOne(@Param('id') id: any) {
+    const res = await this.featuresService.findOne(id);
+    return createApiResponse(
+      'success',
+      200,
+      'Fetched All Features successfully.',
+      res,
+    );
   }
 
   @Patch(':id')

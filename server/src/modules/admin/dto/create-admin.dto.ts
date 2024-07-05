@@ -3,6 +3,7 @@ import {
   IsBoolean,
   IsMongoId,
   IsNotEmpty,
+  IsOptional,
   IsString,
 } from 'class-validator';
 
@@ -15,6 +16,11 @@ export class CreateAdminDto {
   @IsNotEmpty({ message: 'userName is required' })
   userName: string;
 
+  @IsOptional()
+  @IsString({ message: 'role must be a string' })
+  @IsNotEmpty({ message: 'role is required' })
+  role: string;
+
   @IsString({ message: 'password must be a string' })
   @IsNotEmpty({ message: 'password is required' })
   password: string;
@@ -22,6 +28,10 @@ export class CreateAdminDto {
   @IsMongoId({ message: 'tenantId must be a valid MongoDB ObjectId' })
   @IsNotEmpty({ message: 'tenantId is required' })
   tenantId: string;
+
+  @IsMongoId({ message: 'module must be a valid MongoDB ObjectId' })
+  @IsNotEmpty({ message: 'module is required' })
+  module: string;
 
   @IsBoolean({ message: 'isActive must be a boolean value' })
   @IsNotEmpty({ message: 'isActive is required' })

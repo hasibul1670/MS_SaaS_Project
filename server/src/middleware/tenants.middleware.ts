@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
   BadRequestException,
   Injectable,
@@ -19,14 +20,16 @@ export class TenantsMiddleware implements NestMiddleware {
 
     if (!tenantIdHeader) {
       const authorizationHeader = req.headers['authorization'];
-      if (!authorizationHeader) {
+      const [bearer, token] = authorizationHeader.split(' ');
+      if (!token) {
         throw new BadRequestException(
           'X-TENANT-ID not provided and Authorization header not provided',
         );
       }
       try {
-        const decodedToken: any = jwt.decode(authorizationHeader);
+        const decodedToken: any = jwt.decode(token);
         tenantId = decodedToken?.tenantId?.tenantId;
+        // console.log('🚀 ~ TenantsMiddleware ~ use ~ tenantId:', tenantId);
       } catch (error) {
         throw new UnauthorizedException('Invalid token');
       }

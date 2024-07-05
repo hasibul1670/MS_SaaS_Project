@@ -20,8 +20,8 @@ export class FeaturesService {
     return res;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} feature`;
+  async findOne(id: string) {
+    return await FeatureModel.findById(id);
   }
 
   update(id: number, updateFeatureDto: UpdateFeatureDto) {
