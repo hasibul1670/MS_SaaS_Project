@@ -15,22 +15,6 @@ A comprehensive management system SaaS application designed to streamline busine
 
 # SnapShot 
 
-  ## Dashboard HomePage Show OverAll App Data
-![alt text](image-4.png)
-  ## Financial Dashboard Show All Sales Data 
-![alt text](image-2.png)
-
-  ## Product Management
-![alt text](image-3.png)
-
-  ## User Management
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-5.png)
-
-
-
-
 ## Features
 
 ### User Authentication and Authorization
