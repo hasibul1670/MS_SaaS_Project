@@ -1,7 +1,7 @@
 # MS_SaaS_Project
 
 
-![alt text](image.png)
+![Multi-Tenant](image-1.png)
 
 
 # Healthcare Platform
