@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { Document, PipelineStage } from 'mongoose';
 import { ApiError } from 'src/helpers/utills/ApiError';
 import { LocationModel } from './location.schema';
 
@@ -25,33 +24,61 @@ export class LocationService {
     }
   }
 
-  async findAll() {
+  async findAll(req: any) {
     try {
-      const name = 'Bangdong';
-      const data = await LocationModel.findOne({ name: name }).lean();
-      return data;
+      const limit = parseInt(req.query.limit);
+      const page = parseInt(req.query.page);
+      const skip = (page - 1) * limit;
+
+      const pipeline = [
+        {
+          $skip: skip, // Skip documents for previous pages
+        },
+        {
+          $limit: limit, // Limit the number of documents for the current page
+        },
+      ];
+
+      const data = await LocationModel.aggregate(pipeline);
+      const count = await LocationModel.countDocuments();
+
+      const response = {
+        total: count,
+        page: page,
+        skip: skip,
+        limit: limit,
+        totalPages: Math.ceil(count / limit),
+        data: data,
+      };
+
+      return response;
     } catch (error) {
       console.log('🚀 ~ LocationService ~ findAll ~ error:', error);
     }
   }
-  async findAll2(): Promise<Document[]> {
+
+  async findAll2(req: any): Promise<any> {
     try {
-      const skip = 0;
-      const limit = 6000;
-      const searchQuery = 'ban';
-      const pipeline: PipelineStage[] = [
-        {
-          $match: {
-            $or: [{ name: { $regex: `^${searchQuery}`, $options: 'i' } }],
-          },
-        },
-        { $skip: skip },
-        { $limit: limit },
-      ];
-      const res = await LocationModel.aggregate(pipeline);
-      return res;
+      const limit = parseInt(req.query.limit, 10) || 10; // Default limit to 10 if not provided
+      const page = parseInt(req.query.page, 10) || 1; // Default page to 1 if not provided
+      const skip = (page - 1) * limit;
+
+      // Using .find() with .skip() and .limit()
+      const data = await LocationModel.find().skip(skip).limit(limit);
+      const count = await LocationModel.countDocuments();
+
+      const response = {
+        total: count,
+        page: page,
+        skip: skip,
+        limit: limit,
+        totalPages: Math.ceil(count / limit),
+        data: data,
+      };
+
+      return response;
     } catch (error) {
-      console.log('Error in findAll:', error);
+      console.error('Error in findAll2:', error);
       throw error;
     }
   }

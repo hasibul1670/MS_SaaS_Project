@@ -1,4 +1,5 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Get, Post, Req } from '@nestjs/common';
+import { Request } from 'express';
 import { createApiResponse } from 'src/helpers/utills/common-response';
 import { LocationService } from './location.service';
 
@@ -18,11 +19,11 @@ export class LocationController {
   }
 
   @Get('all-location')
-  findAll() {
-    return this.locationService.findAll();
+  findAll(@Req() req: Request) {
+    return this.locationService.findAll(req);
   }
   @Get('all-location2')
-  findAll2() {
-    return this.locationService.findAll2();
+  findAll2(@Req() req: Request) {
+    return this.locationService.findAll2(req);
   }
 }
