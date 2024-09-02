@@ -1,0 +1,3811 @@
+[{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd817"
+  },
+  "name": "Protonox Capsule  V32",
+  "productDescription": "Proton pump inhibitor for gastric acid reduction",
+  "measurement": "28 capsules",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Esomeprazole",
+  "category": "Digestive Health",
+  "price": 450,
+  "country": "Bangladesh",
+  "id": 19,
+  "updatedAt": {
+    "$date": "2024-05-14T15:49:29.318Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd807"
+  },
+  "name": "Darolac Capsule",
+  "productDescription": "Probiotic for digestive health",
+  "measurement": "10 capsules",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Lactobacillus acidophilus, Bifidobacterium bifidum",
+  "category": "Digestive Health",
+  "price": 225,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/9cScNLC/3.jpg",
+  "id": 3,
+  "updatedAt": {
+    "$date": "2024-04-30T00:33:43.087Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd813"
+  },
+  "name": "Neopectin Syrup",
+  "productDescription": "Anti-diarrheal and anti-dysentery syrup",
+  "measurement": "100 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Racecadotril, Pectin",
+  "category": "Digestive Health",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "id": 15
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd809"
+  },
+  "name": "Neopectin Syrup",
+  "productDescription": "Anti-diarrheal and anti-dysentery syrup",
+  "measurement": "100 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Racecadotril, Pectin",
+  "category": "Digestive Health",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/tH9sqBQ/5.jpg",
+  "id": 5
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd80c"
+  },
+  "name": "Enterogermina Oral Suspension",
+  "productDescription": "Probiotic suspension for intestinal disorders",
+  "measurement": "5 ml",
+  "company": "Sanofi Bangladesh Limited",
+  "generic": "Bacillus Clausii",
+  "category": "Digestive Health",
+  "price": 40.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/0qvKPpK/8.jpg",
+  "id": 8
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd826"
+  },
+  "name": "BirdBoost Feather Supplement",
+  "productDescription": "Feather supplement for birds",
+  "measurement": "60 gm",
+  "company": "Navana Animal Health",
+  "generic": "Methionine, Lysine",
+  "category": "Pet Medicine",
+  "price": 120.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/z2Fb9g4/23.jpg",
+  "id": 32
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd831"
+  },
+  "name": "Groomers Choice Pet Shampoo",
+  "productDescription": "Gentle pet shampoo for dogs and cats",
+  "measurement": "300 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Shampoo",
+  "category": "Pet Medicine",
+  "price": 150.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/VSxFN3F/34.jpg",
+  "id": 43
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd83f"
+  },
+  "name": "DiaTea Herbal Tea",
+  "productDescription": "Herbal tea for blood sugar regulation",
+  "measurement": "30 tea bags",
+  "company": "ACI Limited",
+  "generic": "Ceylon Cinnamon, Gymnema Sylvestre",
+  "category": "Diabetes",
+  "price": 85.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/jWMxhmn/47.jpg",
+  "id": 56
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd846"
+  },
+  "name": "Tresiba FlexTouch Pen",
+  "productDescription": "Long-acting insulin pen for diabetes",
+  "measurement": "1 pen",
+  "company": "Novo Nordisk",
+  "generic": "Insulin Degludec",
+  "category": "Diabetes",
+  "price": 280.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/qmf3d1q/54.jpg",
+  "id": 63
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd849"
+  },
+  "name": "Humalog Mix 25 Injection",
+  "productDescription": "Premixed insulin for diabetes",
+  "measurement": "3 cartridges (100 IU/ml)",
+  "company": "Eli Lilly and Company (Bangladesh) Ltd.",
+  "generic": "Insulin Lispro, Insulin Lispro Protamine",
+  "category": "Diabetes",
+  "price": 320.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1LNjDZM/57.jpg",
+  "id": 66
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd84f"
+  },
+  "name": "Napa Suspension",
+  "productDescription": "Fever reducer and pain reliever suspension",
+  "measurement": "100 ml",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Paracetamol",
+  "category": "Fever & Pain",
+  "price": 45.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/WvRqg2G/62.jpg",
+  "id": 71
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd880"
+  },
+  "name": "Captopril 25 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "14 tablets",
+  "company": "Renata Limited",
+  "generic": "Captopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 38.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/PxtqhT9/108.jpg",
+  "id": 117
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd88e"
+  },
+  "name": "Valsartan HCT 80/12.5 mg Tablet",
+  "productDescription": "Combination ARB and thiazide diuretic for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Valsartan, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 68.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/bWGYdR1/121.jpg",
+  "id": 130
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd896"
+  },
+  "name": "Felodipine 5 mg Tablet",
+  "productDescription": "Calcium channel blocker for hypertension",
+  "measurement": "28 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Felodipine",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 59.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/L5rpmbj/129.jpg",
+  "id": 138
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd89a"
+  },
+  "name": "Perindopril 8 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "30 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Perindopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 54.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/T1K0d64/133.jpg",
+  "id": 142
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd89d"
+  },
+  "name": "Valsartan HCT 80/12.5 mg Tablet",
+  "productDescription": "Combination ARB and thiazide diuretic for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Valsartan, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 68.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/mb14K5r/136.jpg",
+  "id": 145
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a3"
+  },
+  "name": "Metolol 100 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension and angina",
+  "measurement": "30 tablets",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Metoprolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 42.49,
+  "country": "Bangladesh",
+  "id": 151
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a4"
+  },
+  "name": "Lisinopril HCT 20/12.5 mg Tablet",
+  "productDescription": "Combination ACE inhibitor and thiazide diuretic for hypertension",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Lisinopril, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 63.99,
+  "country": "Bangladesh",
+  "id": 152
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b6"
+  },
+  "name": "BabyVit D3 Drops",
+  "productDescription": "Vitamin D3 supplement drops for infants",
+  "measurement": "15 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Vitamin D3",
+  "category": "Baby Medicine",
+  "price": 28.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/mq9qvjv/150.jpg",
+  "id": 169
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8cf"
+  },
+  "name": "SunGuard Sunscreen Lotion",
+  "productDescription": "Broad-spectrum sunscreen for sun protection",
+  "measurement": "150 ml",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Octinoxate, Avobenzone",
+  "category": "Skin & Hair Condition",
+  "price": 50.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/sJRS2h6/172.jpg",
+  "id": 192
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8db"
+  },
+  "name": "LipRevive Lip Balm",
+  "productDescription": "Nourishing lip balm for dry and chapped lips",
+  "measurement": "5 gm",
+  "company": "Renata Limited",
+  "generic": "Shea Butter, Vitamin E",
+  "category": "Skin & Hair Condition",
+  "price": 20.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/gwb1DtG/183.jpg",
+  "id": 203
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8dc"
+  },
+  "name": "HairColor Expert Hair Dye",
+  "productDescription": "Hair dye for long-lasting color and coverage",
+  "measurement": "60 ml",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Ammonia-free Hair Dye",
+  "category": "Skin & Hair Condition",
+  "price": 80.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/FBxnPyd/184.jpg",
+  "id": 204
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8f6"
+  },
+  "name": "Healthy Kitten Formula",
+  "productDescription": "Complete formula for growing kittens",
+  "measurement": "1.5 kg",
+  "company": "KittenCare",
+  "generic": "Chicken, DHA, Taurine",
+  "category": "Pet Food",
+  "price": 18.99,
+  "url": "https://i.ibb.co/whsyqF9/207.jpg",
+  "id": 227
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd820"
+  },
+  "name": "ReptiGuard Vitamin Drops",
+  "productDescription": "Vitamin drops for reptiles",
+  "measurement": "30 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Vitamins",
+  "category": "Pet Medicine",
+  "price": 85.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/BydNP79/18.jpg",
+  "id": 27
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd829"
+  },
+  "name": "FishEase Aquarium Bacteria Starter",
+  "productDescription": "Beneficial bacteria starter for aquariums",
+  "measurement": "50 ml",
+  "company": "Incepta Animal Health",
+  "generic": "Nitrosomonas, Nitrobacter",
+  "category": "Pet Medicine",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/c15B0cn/26.jpg",
+  "id": 35
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd834"
+  },
+  "name": "BioPet Digestive Enzyme Powder",
+  "productDescription": "Digestive enzyme supplement for pets",
+  "measurement": "60 gm",
+  "company": "Opsonin Animal Health",
+  "generic": "Digestive Enzymes",
+  "category": "Pet Medicine",
+  "price": 130.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/997mXbX/37.jpg",
+  "id": 46
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd844"
+  },
+  "name": "Glimel SR Tablet",
+  "productDescription": "Sustained-release Glimepiride for diabetes",
+  "measurement": "20 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Glimepiride",
+  "category": "Diabetes",
+  "price": 140.75,
+  "country": "Bangladesh",
+  "URL": "https://i.ibb.co/k2gRBP2/52.jpg",
+  "id": 61
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd876"
+  },
+  "name": "Ebastine Tablet",
+  "productDescription": "Antihistamine tablet for allergy relief",
+  "measurement": "30 tablets",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Ebastine",
+  "category": "Allergy & Asthma",
+  "price": 100.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/dP2WWgx/99.jpg",
+  "id": 108
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd87f"
+  },
+  "name": "Hydrochlorothiazide 12.5 mg Tablet",
+  "productDescription": "Thiazide diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 30.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/LCRS3PV/107.jpg",
+  "id": 116
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd881"
+  },
+  "name": "Nebivolol 5 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension",
+  "measurement": "20 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Nebivolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 42.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/6tNKDjW/109.jpg",
+  "id": 118
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd898"
+  },
+  "name": "Losartan HCTZ 50/12.5 mg Tablet",
+  "productDescription": "Combination ARB and thiazide diuretic for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Losartan, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 65.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/4tq6fDW/131.jpg",
+  "id": 140
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8aa"
+  },
+  "name": "Indapamide 2.5 mg Tablet",
+  "productDescription": "Thiazide-like diuretic for hypertension",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Indapamide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 42.75,
+  "country": "Bangladesh",
+  "id": 158
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d5"
+  },
+  "name": "EczemaCare Cream",
+  "productDescription": "Cream for eczema relief and skin soothing",
+  "measurement": "30 gm",
+  "company": "ACI Limited",
+  "generic": "Colloidal Oatmeal, Allantoin",
+  "category": "Skin & Hair Condition",
+  "price": 55.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/p3VzrCS/177.jpg",
+  "id": 197
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e3"
+  },
+  "name": "Biotin Hair, Skin & Nails",
+  "productDescription": "Biotin supplement for hair, skin, and nails",
+  "measurement": "120 capsules",
+  "company": "BeautyNutri",
+  "generic": "Biotin",
+  "category": "Vitamins & Supplements",
+  "price": 22.49,
+  "url": "https://i.ibb.co/KmRcmXJ/190.jpg",
+  "id": 210
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8ec"
+  },
+  "name": "Blood Glucose Meter",
+  "productDescription": "Meter to monitor blood sugar levels",
+  "measurement": "1 unit",
+  "company": "GlucoCheck",
+  "generic": "Blood Glucose Meter",
+  "category": "Diabetes",
+  "price": 19.99,
+  "url": "https://i.ibb.co/4ZpqmYV/198.jpg",
+  "id": 218
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd81f"
+  },
+  "name": "FishSure Water Conditioner",
+  "productDescription": "Water conditioner for aquarium fish",
+  "measurement": "100 ml",
+  "company": "Incepta Animal Health",
+  "generic": "Sodium Thiosulfate",
+  "category": "Pet Medicine",
+  "price": 130.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/vmc8mCn/17.jpg",
+  "id": 26
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd856"
+  },
+  "name": "Actifast Tablet",
+  "productDescription": "Fast-acting pain relief tablet",
+  "measurement": "10 tablets",
+  "company": "ACI Limited",
+  "generic": "Diclofenac Potassium",
+  "category": "Fever & Pain",
+  "price": 50.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/2PQz6KT/69.jpg",
+  "id": 78
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd870"
+  },
+  "name": "Livocetirizine Syrup",
+  "productDescription": "Antihistamine syrup for allergy relief",
+  "measurement": "100 ml",
+  "company": "Acme Laboratories Ltd.",
+  "generic": "Levocetirizine",
+  "category": "Allergy & Asthma",
+  "price": 60.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/cJNHKdz/93.jpg",
+  "id": 102
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd871"
+  },
+  "name": "Foracort 400 Inhaler",
+  "productDescription": "Combination inhaler for asthma and COPD",
+  "measurement": "1 inhaler",
+  "company": "Sun Pharmaceutical (Bangladesh) Limited",
+  "generic": "Budesonide, Formoterol",
+  "category": "Allergy & Asthma",
+  "price": 210.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/fMvpn0D/94.jpg",
+  "id": 103
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd874"
+  },
+  "name": "Montair LC Tablet",
+  "productDescription": "Leukotriene receptor antagonist for asthma",
+  "measurement": "14 tablets",
+  "company": "Sun Pharmaceutical (Bangladesh) Limited",
+  "generic": "Montelukast, Levocetirizine",
+  "category": "Allergy & Asthma",
+  "price": 120.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1M0wScb/97.jpg",
+  "id": 106
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd889"
+  },
+  "name": "Prazosin 2 mg Tablet",
+  "productDescription": "Alpha-blocker for hypertension",
+  "measurement": "20 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Prazosin",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 37.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/brJdKGV/117.jpg",
+  "id": 126
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8bc"
+  },
+  "name": "VitaminADe Drops",
+  "productDescription": "Vitamin A and D supplement drops for infants",
+  "measurement": "10 ml",
+  "company": "Renata Limited",
+  "generic": "Vitamin A, Vitamin D",
+  "category": "Baby Medicine",
+  "price": 27.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/C0310fJ/155.jpg",
+  "id": 174
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8cb"
+  },
+  "name": "SkinBrite Brightening Serum",
+  "productDescription": "Brightening serum for even skin tone",
+  "measurement": "30 ml",
+  "company": "Renata Limited",
+  "generic": "Vitamin C, Arbutin",
+  "category": "Skin & Hair Condition",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/606pkRC/168.jpg",
+  "id": 188
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d6"
+  },
+  "name": "NailStrong Nail Serum",
+  "productDescription": "Serum for strengthening and nourishing nails",
+  "measurement": "15 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Vitamin E, Biotin",
+  "category": "Skin & Hair Condition",
+  "price": 40.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/wsLxwHp/178.jpg",
+  "id": 198
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd81e"
+  },
+  "name": "EquiHeal Hoof Cream",
+  "productDescription": "Hoof care cream for horses",
+  "measurement": "500 ml",
+  "company": "Renata Animal Health",
+  "generic": "Zinc Oxide",
+  "category": "Pet Medicine",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/7vcYPBp/15.jpg",
+  "id": 25
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd808"
+  },
+  "name": "Pudin Hara Pearls",
+  "productDescription": "Ayurvedic digestive pearls for gas and bloating",
+  "measurement": "30 pearls",
+  "company": "Dabur Bangladesh Ltd.",
+  "generic": "Menthol, Peppermint Oil",
+  "category": "Digestive Health",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/KyFn2Jw/4.jpg",
+  "id": 4
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd80d"
+  },
+  "name": "Protonox Capsule",
+  "productDescription": "Proton pump inhibitor for gastric acid reduction",
+  "measurement": "28 capsules",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Esomeprazole",
+  "category": "Digestive Health",
+  "price": 220.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/4Ry5KC4/9.jpg",
+  "id": 9
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd824"
+  },
+  "name": "K9Guard Tick Collar",
+  "productDescription": "Long-lasting tick collar for dogs",
+  "measurement": "1 collar",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Propoxur",
+  "category": "Pet Medicine",
+  "price": 180.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1fxd6CR/21.jpg",
+  "id": 30
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd828"
+  },
+  "name": "EquiVit Horse Vitamin Supplement",
+  "productDescription": "Vitamin supplement for horses",
+  "measurement": "1 kg",
+  "company": "Renata Animal Health",
+  "generic": "Vitamins",
+  "category": "Pet Medicine",
+  "price": 180.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/F3s3HC6/25.jpg",
+  "id": 34
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd832"
+  },
+  "name": "AviVet Bird Calcium Supplement",
+  "productDescription": "Calcium supplement for birds",
+  "measurement": "100 gm",
+  "company": "Navana Animal Health",
+  "generic": "Calcium Carbonate",
+  "category": "Pet Medicine",
+  "price": 110.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/LJsnQJZ/35.jpg",
+  "id": 44
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd857"
+  },
+  "name": "Calpol Infant Drops",
+  "productDescription": "Paracetamol drops for infants",
+  "measurement": "15 ml",
+  "company": "GlaxoSmithKline Bangladesh Ltd.",
+  "generic": "Paracetamol",
+  "category": "Fever & Pain",
+  "price": 35.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/0C6NzQV/70.jpg",
+  "id": 79
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd811"
+  },
+  "name": "Darolac Capsule",
+  "productDescription": "Probiotic for digestive health",
+  "measurement": "10 capsules",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Lactobacillus acidophilus, Bifidobacterium bifidum",
+  "category": "Digestive Health",
+  "price": 120.25,
+  "country": "Bangladesh",
+  "id": 13
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd860"
+  },
+  "name": "Medirex Digital Thermometer",
+  "productDescription": "Digital thermometer for accurate temperature measurement",
+  "measurement": "1 thermometer",
+  "company": "ACI Limited",
+  "generic": "Digital Thermometer",
+  "category": "Fever & Pain",
+  "price": 55.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/hFrRvsZ/78.jpg",
+  "id": 87
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd864"
+  },
+  "name": "Allegra 120 mg Tablet",
+  "productDescription": "Antihistamine tablet for allergy relief",
+  "measurement": "10 tablets",
+  "company": "Sanofi Bangladesh Limited",
+  "generic": "Fexofenadine",
+  "category": "Allergy & Asthma",
+  "price": 75.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/pKhFw5Z/81.jpg",
+  "id": 90
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd87b"
+  },
+  "name": "Lisinopril 10 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "14 tablets",
+  "company": "Renata Limited",
+  "generic": "Lisinopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 40.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/yfppvQq/103.jpg",
+  "id": 112
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd88f"
+  },
+  "name": "Metoprolol XL 50 mg Tablet",
+  "productDescription": "Extended-release beta-blocker for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Metoprolol Succinate",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 56.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/DMdDJGZ/122.jpg",
+  "id": 131
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd897"
+  },
+  "name": "Triamterene HCTZ 37.5/25 mg Tablet",
+  "productDescription": "Combination potassium-sparing diuretic and thiazide diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Triamterene, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 43.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/yd1VwBV/130.jpg",
+  "id": 139
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8af"
+  },
+  "name": "BabyCalm Oral Solution",
+  "productDescription": "Colic and gas relief drops for infants",
+  "measurement": "15 ml",
+  "company": "ACI Limited",
+  "generic": "Simethicone",
+  "category": "Baby Medicine",
+  "price": 25.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1Twvgh2/143.jpg",
+  "id": 162
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8b9"
+  },
+  "name": "BabyGrow Nutritional Powder",
+  "productDescription": "Baby formula powder for growth and development",
+  "measurement": "400 gm",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "DHA, ARA, Probiotics",
+  "category": "Baby Medicine",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/n6Q5T4b/152.jpg",
+  "id": 171
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8d1"
+  },
+  "name": "HairFall Defense Shampoo",
+  "productDescription": "Shampoo for hair fall control and strength",
+  "measurement": "250 ml",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Biotin, Niacinamide",
+  "category": "Skin & Hair Condition",
+  "price": 70.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Km6fnFg/174.jpg",
+  "id": 194
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d8"
+  },
+  "name": "DandruffShield Scalp Mask",
+  "productDescription": "Scalp mask for dandruff control and scalp health",
+  "measurement": "100 gm",
+  "company": "Renata Limited",
+  "generic": "Tea Tree Oil, Menthol",
+  "category": "Skin & Hair Condition",
+  "price": 75.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/vwFcmBn/180.jpg",
+  "id": 200
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8fa"
+  },
+  "name": "Dental Chews for Dogs",
+  "productDescription": "Dental chews to support oral health",
+  "measurement": "12 chews",
+  "company": "DentaCare",
+  "generic": "Rawhide, Mint Flavor",
+  "category": "Pet Food",
+  "price": 11.99,
+  "url": "https://i.ibb.co/7gBRcrV/211.jpg",
+  "id": 231
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd80f"
+  },
+  "name": "Gastrozep Capsule",
+  "productDescription": "Proton pump inhibitor for acid-related disorders",
+  "measurement": "14 capsules",
+  "company": "Renata Limited",
+  "generic": "Omeprazole",
+  "category": "Digestive Health",
+  "price": 250.75,
+  "country": "Bangladesh",
+  "id": 11
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd814"
+  },
+  "name": "Lactaid Digestive Supplement",
+  "productDescription": "Helps digest lactose in dairy products",
+  "measurement": "30 caplets",
+  "company": "Johnson & Johnson",
+  "generic": "Lactase",
+  "category": "Digestive Health",
+  "price": 130.99,
+  "country": "Bangladesh",
+  "id": 16
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd81d"
+  },
+  "name": "AvianVet Calcium Supplement",
+  "productDescription": "Calcium supplement for birds",
+  "measurement": "100 gm",
+  "company": "Navana Animal Health",
+  "generic": "Calcium Carbonate",
+  "category": "Pet Medicine",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/RPktGC6/14.jpg",
+  "id": 24
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd839"
+  },
+  "name": "GlycoMet XR Tablet",
+  "productDescription": "Extended-release Metformin for diabetes management",
+  "measurement": "30 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Metformin Hydrochloride",
+  "category": "Diabetes",
+  "price": 120.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/L8WsrPC/41.jpg",
+  "id": 50
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd847"
+  },
+  "name": "Glucobay Acarbose Tablet",
+  "productDescription": "Alpha-glucosidase inhibitor for diabetes",
+  "measurement": "30 tablets",
+  "company": "Bayer CropScience Limited",
+  "generic": "Acarbose",
+  "category": "Diabetes",
+  "price": 90.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/vdxm0ZD/55.jpg",
+  "id": 64
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd851"
+  },
+  "name": "Vicks Vaporub",
+  "productDescription": "Topical ointment for cold and flu relief",
+  "measurement": "50 gm",
+  "company": "Procter & Gamble Bangladesh Ltd.",
+  "generic": "Camphor, Menthol, Eucalyptus Oil",
+  "category": "Fever & Pain",
+  "price": 70.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/pXTWJdM/64.jpg",
+  "id": 73
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd852"
+  },
+  "name": "Dolo Cold Tablet",
+  "productDescription": "Cold and flu relief tablets",
+  "measurement": "24 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Paracetamol, Phenylephrine, Caffeine",
+  "category": "Fever & Pain",
+  "price": 110.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/0JKyKp7/65.jpg",
+  "id": 74
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd85d"
+  },
+  "name": "Ponstan Forte",
+  "productDescription": "Mefenamic acid tablets for menstrual pain relief",
+  "measurement": "20 tablets",
+  "company": "Abdul Monem Limited",
+  "generic": "Mefenamic Acid",
+  "category": "Fever & Pain",
+  "price": 70.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/jT9wWwR/75.jpg",
+  "id": 84
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd85e"
+  },
+  "name": "Zooli Cold & Flu Capsule",
+  "productDescription": "Cold and flu relief capsules",
+  "measurement": "10 capsules",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Paracetamol, Chlorpheniramine, Phenylephrine",
+  "category": "Fever & Pain",
+  "price": 65.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/LnvzGMv/76.jpg",
+  "id": 85
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd86d"
+  },
+  "name": "Aerocort Rotacaps",
+  "productDescription": "Combination rotacaps for asthma",
+  "measurement": "30 rotacaps",
+  "company": "Aristopharma Ltd.",
+  "generic": "Beclomethasone, Levosalbutamol",
+  "category": "Allergy & Asthma",
+  "price": 130.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/z64Z8Qz/90.jpg",
+  "id": 99
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd86e"
+  },
+  "name": "Fexova 180 mg Tablet",
+  "productDescription": "Antihistamine tablet for allergy relief",
+  "measurement": "10 tablets",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Fexofenadine",
+  "category": "Allergy & Asthma",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "URL": "https://i.ibb.co/Y3BGL0X/91.jpg",
+  "id": 100
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd87e"
+  },
+  "name": "Losartan 50 mg Tablet",
+  "productDescription": "ARB for hypertension and diabetic nephropathy",
+  "measurement": "20 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Losartan",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 55.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/vs1bMpf/106.jpg",
+  "id": 115
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd883"
+  },
+  "name": "Propranolol 40 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension and angina",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Propranolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 39.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/py2bSB3/111.jpg",
+  "id": 120
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd892"
+  },
+  "name": "Hydrochlorothiazide 25 mg Tablet",
+  "productDescription": "Thiazide diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 37.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/DrNV6yS/125.jpg",
+  "id": 134
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd899"
+  },
+  "name": "Nebivolol 10 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension",
+  "measurement": "20 tablets",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Nebivolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 50.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/NKP0Pn7/132.jpg",
+  "id": 141
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd89f"
+  },
+  "name": "Fosinopril 20 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Fosinopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 55.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/pdq706g/138.jpg",
+  "id": 147
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8ae"
+  },
+  "name": "Pedizinc Drops",
+  "productDescription": "Multivitamin and mineral drops for babies",
+  "measurement": "30 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Multivitamins, Minerals",
+  "category": "Baby Medicine",
+  "price": 35.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/85bh1zh/142.jpg",
+  "id": 161
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c0"
+  },
+  "name": "BabyVit Iron Drops",
+  "productDescription": "Iron supplement drops for infants",
+  "measurement": "15 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Iron",
+  "category": "Baby Medicine",
+  "price": 32.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/nrkX2d2/158.jpg",
+  "id": 178
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8cd"
+  },
+  "name": "PsoriasisCare Cream",
+  "productDescription": "Cream for psoriasis relief and skin healing",
+  "measurement": "40 gm",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Coal Tar, Salicylic Acid",
+  "category": "Skin & Hair Condition",
+  "price": 85.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/XZXxQFG/170.jpg",
+  "id": 190
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8ea"
+  },
+  "name": "Insulin Pen",
+  "productDescription": "Pre-filled insulin pen for easy injection",
+  "measurement": "1 pen",
+  "company": "InsulinCare",
+  "generic": "Insulin Glargine",
+  "category": "Diabetes",
+  "price": 35.49,
+  "url": "https://i.ibb.co/mHvDZDG/196.jpg",
+  "id": 216
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8fd"
+  },
+  "name": "Lamb & Rice Cat Food",
+  "productDescription": "Lamb and rice formula for cats",
+  "measurement": "4 kg",
+  "company": "PurrfectMeals",
+  "generic": "Lamb, Brown Rice, Cranberries",
+  "category": "Pet Food",
+  "price": 32.99,
+  "id": 234
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd83a"
+  },
+  "name": "Glucostan Plus Capsule",
+  "productDescription": "Natural formulation for blood sugar control",
+  "measurement": "60 capsules",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Bitter Melon, Cinnamon, Fenugreek",
+  "category": "Diabetes",
+  "price": 150.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/yPc4m4W/42.jpg",
+  "id": 51
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd85f"
+  },
+  "name": "Movamed Gel",
+  "productDescription": "Topical pain relief gel",
+  "measurement": "20 gm",
+  "company": "Renata Limited",
+  "generic": "Diclofenac Diethylamine, Methyl Salicylate, Menthol",
+  "category": "Fever & Pain",
+  "price": 40.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/hYJY8X0/77.jpg",
+  "id": 86
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd866"
+  },
+  "name": "Cetrizine Syrup",
+  "productDescription": "Antihistamine syrup for children's allergy relief",
+  "measurement": "60 ml",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Cetirizine",
+  "category": "Allergy & Asthma",
+  "price": 45.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/4TcPtpq/83.jpg",
+  "id": 92
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd887"
+  },
+  "name": "Chlorthalidone 25 mg Tablet",
+  "productDescription": "Thiazide diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Chlorthalidone",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 34.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/hKqcM3H/115.jpg",
+  "id": 124
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8bd"
+  },
+  "name": "BabyVax Pneumococcal Vaccine",
+  "productDescription": "Vaccine for babies' protection against pneumococcal disease",
+  "measurement": "1 dose",
+  "company": "Incepta Vaccines Ltd.",
+  "generic": "Pneumococcal Conjugate Vaccine",
+  "category": "Baby Medicine",
+  "price": 650.99,
+  "country": "Bangladesh",
+  "id": 175
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8c9"
+  },
+  "name": "HairVital Hair Oil",
+  "productDescription": "Nourishing hair oil for strong and shiny hair",
+  "measurement": "100 ml",
+  "company": "ACI Limited",
+  "generic": "Almond Oil, Coconut Oil",
+  "category": "Skin & Hair Condition",
+  "price": 55.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Xk4YH9g/166.jpg",
+  "id": 186
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8d0"
+  },
+  "name": "AntiAge Rejuvenating Cream",
+  "productDescription": "Anti-aging cream for youthful and firm skin",
+  "measurement": "50 gm",
+  "company": "Renata Limited",
+  "generic": "Retinol, Hyaluronic Acid",
+  "category": "Skin & Hair Condition",
+  "price": 120.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/k3nVBSJ/173.jpg",
+  "id": 193
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d4"
+  },
+  "name": "HairSilk Hair Serum",
+  "productDescription": "Hair serum for frizz control and shine",
+  "measurement": "50 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Argan Oil, Silk Proteins",
+  "category": "Skin & Hair Condition",
+  "price": 65.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Dzr1YnW/176.jpg",
+  "id": 196
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8eb"
+  },
+  "name": "Diabetic Foot Cream",
+  "productDescription": "Foot cream for dry and cracked skin",
+  "measurement": "100 gm",
+  "company": "FootEase",
+  "generic": "Urea, Aloe Vera",
+  "category": "Diabetes",
+  "price": 12.99,
+  "url": "https://i.ibb.co/yh1xHqS/197.jpg",
+  "id": 217
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8ef"
+  },
+  "name": "Diabetic Cookbook",
+  "productDescription": "Cookbook with diabetic-friendly recipes",
+  "measurement": "1 book",
+  "company": "DiabEats",
+  "generic": "Diabetic Cookbook",
+  "category": "Diabetes",
+  "price": 18.49,
+  "url": "https://i.ibb.co/nrgQgJj/201.jpg",
+  "id": 221
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd812"
+  },
+  "name": "Pudin Hara Pearls",
+  "productDescription": "Ayurvedic digestive pearls for gas and bloating",
+  "measurement": "30 pearls",
+  "company": "Dabur Bangladesh Ltd.",
+  "generic": "Menthol, Peppermint Oil",
+  "category": "Digestive Health",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "id": 14
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd815"
+  },
+  "name": "Digel Liquid Antacid",
+  "productDescription": "Rapid relief from acidity and heartburn",
+  "measurement": "170 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Magnesium Hydroxide, Aluminium Hydroxide",
+  "category": "Digestive Health",
+  "price": 85.49,
+  "country": "Bangladesh",
+  "id": 17
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd819"
+  },
+  "name": "Pet-O-Care Deworming Tablets",
+  "productDescription": "Effective deworming tablets for dogs and cats",
+  "measurement": "10 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Praziquantel, Pyrantel Pamoate",
+  "category": "Pet Medicine",
+  "price": 150.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/PwBTnvs/10.jpg",
+  "id": 20
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd82b"
+  },
+  "name": "FelineDent Dental Gel",
+  "productDescription": "Dental gel for cats",
+  "measurement": "50 gm",
+  "company": "Incepta Animal Health",
+  "generic": "Chlorhexidine Gluconate",
+  "category": "Pet Medicine",
+  "price": 130.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/wcs8kYG/28.jpg",
+  "id": 37
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd82f"
+  },
+  "name": "ReptiThrive Reptile Food",
+  "productDescription": "Complete nutrition for reptiles",
+  "measurement": "100 gm",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Insects, Vegetables",
+  "category": "Pet Medicine",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Bg5tdY0/32.jpg",
+  "id": 41
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd84e"
+  },
+  "name": "Panadol Extra",
+  "productDescription": "Fast-acting pain reliever with extra strength",
+  "measurement": "20 tablets",
+  "company": "GlaxoSmithKline Bangladesh Ltd.",
+  "generic": "Paracetamol, Caffeine",
+  "category": "Fever & Pain",
+  "price": 60.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/GQLDQGC/61.jpg",
+  "id": 70
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd854"
+  },
+  "name": "Cetamol Syrup",
+  "productDescription": "Paracetamol syrup for children's fever and pain",
+  "measurement": "60 ml",
+  "company": "Renata Limited",
+  "generic": "Paracetamol",
+  "category": "Fever & Pain",
+  "price": 40.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/74Zv1Km/67.jpg",
+  "id": 76
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd877"
+  },
+  "name": "Budenase AQ Nasal Spray",
+  "productDescription": "Corticosteroid nasal spray for allergic rhinitis",
+  "measurement": "120 doses",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Budesonide",
+  "category": "Allergy & Asthma",
+  "price": 160.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/YTcnSFb/100.jpg",
+  "id": 109
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd87a"
+  },
+  "name": "Atenolol 50 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension and angina",
+  "measurement": "20 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Atenolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 35.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1qTjT2N/102.jpg",
+  "id": 111
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd885"
+  },
+  "name": "Hydralazine 25 mg Tablet",
+  "productDescription": "Vasodilator for hypertension",
+  "measurement": "30 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Hydralazine",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 51.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/3mcqPTm/113.jpg",
+  "id": 122
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd88b"
+  },
+  "name": "Indapamide 1.5 mg Tablet",
+  "productDescription": "Thiazide-like diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Indapamide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 41.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/5nqTb9p/119.jpg",
+  "id": 128
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd88c"
+  },
+  "name": "Carvedilol 6.25 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension and heart failure",
+  "measurement": "28 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Carvedilol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 49.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/sjqN8qc/120.jpg",
+  "id": 129
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b0"
+  },
+  "name": "GrowthPlus Suspension",
+  "productDescription": "Pediatric nutritional supplement for growth and development",
+  "measurement": "100 ml",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Multivitamins, Minerals, Amino Acids",
+  "category": "Baby Medicine",
+  "price": 80.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/4Znc9pj/144.jpg",
+  "id": 163
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8ca"
+  },
+  "name": "AcneClear Spot Gel",
+  "productDescription": "Spot treatment gel for acne and blemishes",
+  "measurement": "20 gm",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Salicylic Acid, Tea Tree Oil",
+  "category": "Skin & Hair Condition",
+  "price": 40.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/wrnZ1WN/167.jpg",
+  "id": 187
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8f4"
+  },
+  "name": "Premium Dog Food",
+  "productDescription": "Nutritious dog food for all breeds",
+  "measurement": "5 kg",
+  "company": "Pawsome Pets",
+  "generic": "Chicken, Brown Rice, Vegetables",
+  "category": "Pet Food",
+  "price": 34.99,
+  "url": "https://i.ibb.co/sq3SK9y/205.jpg",
+  "id": 225
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd80e"
+  },
+  "name": "ACI Acinil O Syrup",
+  "productDescription": "Antacid syrup for heartburn and acidity relief",
+  "measurement": "200 ml",
+  "company": "ACI Limited",
+  "generic": "Aluminum Hydroxide, Magnesium Hydroxide, Simethicone",
+  "category": "Digestive Health",
+  "price": 150.99,
+  "country": "Bangladesh",
+  "id": 10
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd82d"
+  },
+  "name": "CanineFlex Joint Supplement",
+  "productDescription": "Joint supplement for large breed dogs",
+  "measurement": "60 chewable tablets",
+  "company": "Opsonin Animal Health",
+  "generic": "Glucosamine, Chondroitin, MSM",
+  "category": "Pet Medicine",
+  "price": 240.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/7XzL7p4/30.jpg",
+  "id": 39
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd833"
+  },
+  "name": "FelineCare Hairball Remedy",
+  "productDescription": "Hairball remedy for cats",
+  "measurement": "60 ml",
+  "company": "Incepta Animal Health",
+  "generic": "Petroleum Jelly, Liquid Paraffin",
+  "category": "Pet Medicine",
+  "price": 120.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/FWrpsG9/36.jpg",
+  "id": 45
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd842"
+  },
+  "name": "Glycosef G2 Blood Glucose Test Strips",
+  "productDescription": "Test strips for accurate blood glucose testing",
+  "measurement": "50 strips",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Blood Glucose Test Strips",
+  "category": "Diabetes",
+  "price": 150.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/yBLSzqY/50.jpg",
+  "id": 59
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd84b"
+  },
+  "name": "DiaSafe Diabetic Foot Cream",
+  "productDescription": "Foot cream for diabetic foot care",
+  "measurement": "50 gm",
+  "company": "ACI Limited",
+  "generic": "Urea, Aloe Vera",
+  "category": "Diabetes",
+  "price": 80.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/JqR2HSq/59.jpg",
+  "id": 68
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd853"
+  },
+  "name": "Brufen 600",
+  "productDescription": "Ibuprofen tablets for pain and inflammation",
+  "measurement": "20 tablets",
+  "company": "Abbott Bangladesh Ltd.",
+  "generic": "Ibuprofen",
+  "category": "Fever & Pain",
+  "price": 90.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/FzML8hq/66.jpg",
+  "id": 75
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd862"
+  },
+  "name": "Paracalm Oral Solution",
+  "productDescription": "Paracetamol oral solution for fever and pain",
+  "measurement": "60 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Paracetamol",
+  "category": "Fever & Pain",
+  "price": 35.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/d57N7rw/80.jpg",
+  "id": 89
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd869"
+  },
+  "name": "Beclate 200 Inhaler",
+  "productDescription": "Corticosteroid inhaler for asthma and allergic rhinitis",
+  "measurement": "1 inhaler",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Beclomethasone Dipropionate",
+  "category": "Allergy & Asthma",
+  "price": 150.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/FK7nn8m/86.jpg",
+  "id": 95
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b2"
+  },
+  "name": "TeethEase Gel",
+  "productDescription": "Teething gel for babies' teething discomfort",
+  "measurement": "10 gm",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Benzocaine",
+  "category": "Baby Medicine",
+  "price": 40.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/dM5RFH5/146.jpg",
+  "id": 165
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b4"
+  },
+  "name": "CalmSleep Drops",
+  "productDescription": "Natural sleep aid drops for babies",
+  "measurement": "30 ml",
+  "company": "Renata Limited",
+  "generic": "Chamomile Extract",
+  "category": "Baby Medicine",
+  "price": 55.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/rZpL33p/148.jpg",
+  "id": 167
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c4"
+  },
+  "name": "BabyEase Nasal Drops",
+  "productDescription": "Saline nasal drops for babies' nasal congestion",
+  "measurement": "15 ml",
+  "company": "ACI Limited",
+  "generic": "Sodium Chloride",
+  "category": "Baby Medicine",
+  "price": 25.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/2gz2Kxz/162.jpg",
+  "id": 182
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c5"
+  },
+  "name": "BabyTuss Cough Syrup",
+  "productDescription": "Cough syrup for babies' cough and cold relief",
+  "measurement": "60 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Dextromethorphan, Chlorpheniramine",
+  "category": "Baby Medicine",
+  "price": 40.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/42SmrWd/163.jpg",
+  "id": 183
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c6"
+  },
+  "name": "BabyProtect Sunscreen Lotion",
+  "productDescription": "Sunscreen lotion for babies' sun protection",
+  "measurement": "100 ml",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Zinc Oxide, Titanium Dioxide",
+  "category": "Baby Medicine",
+  "price": 36.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/bvHmVJ9/164.jpg",
+  "id": 184
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d3"
+  },
+  "name": "MoistureLock Body Lotion",
+  "productDescription": "Hydrating body lotion for smooth and nourished skin",
+  "measurement": "200 ml",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Shea Butter, Cocoa Butter",
+  "category": "Skin & Hair Condition",
+  "price": 45.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/34YYLYB/175.jpg",
+  "id": 195
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8df"
+  },
+  "name": "Fish Oil Omega-3",
+  "productDescription": "Omega-3 fatty acids for heart and brain health",
+  "measurement": "120 softgels",
+  "company": "XYZ Nutrition",
+  "generic": "Fish Oil (EPA, DHA)",
+  "category": "Vitamins & Supplements",
+  "price": 19.99,
+  "url": "https://i.ibb.co/ZH2BpF4/186.jpg",
+  "id": 206
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e2"
+  },
+  "name": "Vitamin C Chewable Tablets",
+  "productDescription": "Chewable Vitamin C for immune support",
+  "measurement": "60 tablets",
+  "company": "Wellness Plus",
+  "generic": "Vitamin C (Ascorbic Acid)",
+  "category": "Vitamins & Supplements",
+  "price": 9.99,
+  "url": "https://i.ibb.co/0qgWY5X/189.jpg",
+  "id": 209
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e7"
+  },
+  "name": "Turmeric Curcumin Capsules",
+  "productDescription": "Curcumin supplement with black pepper extract",
+  "measurement": "60 capsules",
+  "company": "HerbalHealth",
+  "generic": "Turmeric Curcumin",
+  "category": "Vitamins & Supplements",
+  "price": 21.49,
+  "url": "https://i.ibb.co/vZhVq8d/194.jpg",
+  "id": 214
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8f5"
+  },
+  "name": "Grain-Free Cat Food",
+  "productDescription": "Grain-free cat food for sensitive stomachs",
+  "measurement": "3 kg",
+  "company": "WhiskerWise",
+  "generic": "Salmon, Sweet Potato, Peas",
+  "category": "Pet Food",
+  "price": 27.49,
+  "url": "https://i.ibb.co/f9dYrKc/206.jpg",
+  "id": 226
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8f9"
+  },
+  "name": "Small Breed Dog Food",
+  "productDescription": "Specially formulated for small breed dogs",
+  "measurement": "2.5 kg",
+  "company": "TinyPaws",
+  "generic": "Chicken, Brown Rice, Small Kibble",
+  "category": "Pet Food",
+  "price": 22.49,
+  "url": "https://i.ibb.co/Wtv70HF/210.jpg",
+  "id": 230
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd821"
+  },
+  "name": "SmallPaws Joint Supplement",
+  "productDescription": "Joint supplement for small breed dogs",
+  "measurement": "60 chewable tablets",
+  "company": "Opsonin Animal Health",
+  "generic": "Glucosamine, Chondroitin",
+  "category": "Pet Medicine",
+  "price": 40.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/r7jmfgM/19.jpg",
+  "id": 28
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd827"
+  },
+  "name": "ReptiSure UVB Lamp",
+  "productDescription": "UVB lamp for reptile habitats",
+  "measurement": "1 lamp",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "UVB Light",
+  "category": "Pet Medicine",
+  "price": 250.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/P55p7cm/download.jpg",
+  "id": 33
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd835"
+  },
+  "name": "CanineVet Vitamin Supplement",
+  "productDescription": "Multivitamin supplement for dogs",
+  "measurement": "100 tablets",
+  "company": "Incepta Animal Health",
+  "generic": "Multivitamins",
+  "category": "Pet Medicine",
+  "price": 100.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/0Brt0rP/38.jpg",
+  "id": 47
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd83d"
+  },
+  "name": "NovoRapid FlexPen",
+  "productDescription": "Rapid-acting insulin pen for mealtime use",
+  "measurement": "1 pen",
+  "company": "Novo Nordisk",
+  "generic": "Insulin Aspart",
+  "category": "Diabetes",
+  "price": 280.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1Mp8htd/45.jpg",
+  "id": 54
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd859"
+  },
+  "name": "Parapaed Suspension",
+  "productDescription": "Paracetamol suspension for children's fever and pain",
+  "measurement": "100 ml",
+  "company": "Novartis (Bangladesh) Limited",
+  "generic": "Paracetamol",
+  "category": "Fever & Pain",
+  "price": 55.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/yPpm91g/71.jpg",
+  "id": 80
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd86a"
+  },
+  "name": "Montelukast Chewable Tablet",
+  "productDescription": "Leukotriene receptor antagonist for asthma",
+  "measurement": "30 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Montelukast",
+  "category": "Allergy & Asthma",
+  "price": 110.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/PzjYm7w/87.jpg",
+  "id": 96
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd88a"
+  },
+  "name": "Telmisartan 40 mg Tablet",
+  "productDescription": "ARB for hypertension and cardiovascular risk reduction",
+  "measurement": "20 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Telmisartan",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 54.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/zVSrMZc/118.jpg",
+  "id": 127
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd89b"
+  },
+  "name": "Indapamide 2.5 mg Tablet",
+  "productDescription": "Thiazide-like diuretic for hypertension",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Indapamide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 42.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/x2d7PVR/134.jpg",
+  "id": 143
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a0"
+  },
+  "name": "Propranolol SR 80 mg Capsule",
+  "productDescription": "Sustained-release beta-blocker for hypertension",
+  "measurement": "28 capsules",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Propranolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 47.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/P1sLw6h/139.jpg",
+  "id": 148
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a1"
+  },
+  "name": "Hydrochlorothiazide 25 mg Tablet",
+  "productDescription": "Thiazide diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 37.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Ldt0msQ/140.jpg",
+  "id": 149
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8b8"
+  },
+  "name": "InfantFever Suspension",
+  "productDescription": "Fever reducer and pain reliever for infants",
+  "measurement": "100 ml",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Paracetamol",
+  "category": "Baby Medicine",
+  "price": 60.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/tzFNKV4/151.jpg",
+  "id": 170
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8de"
+  },
+  "name": "Multivitamin Complex",
+  "productDescription": "Comprehensive multivitamin for overall health",
+  "measurement": "60 tablets",
+  "company": "ABC Pharmaceuticals",
+  "generic": "Vitamin A, B-Complex, Vitamin C, Vitamin D, Vitamin E, Zinc",
+  "category": "Vitamins & Supplements",
+  "price": 24.99,
+  "url": "https://i.ibb.co/1M195YC/185.jpg",
+  "id": 205
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8f0"
+  },
+  "name": "Glucomannan Fiber Supplement",
+  "productDescription": "Fiber supplement to support blood sugar",
+  "measurement": "120 capsules",
+  "company": "FiberPlus",
+  "generic": "Glucomannan",
+  "category": "Diabetes",
+  "price": 27.49,
+  "url": "https://i.ibb.co/vXqHgJ9/202.jpg",
+  "id": 222
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8fb"
+  },
+  "name": "Natural Rabbit Food",
+  "productDescription": "Balanced food for pet rabbits",
+  "measurement": "1 kg",
+  "company": "HoppyFeast",
+  "generic": "Alfalfa, Carrots, Pellets",
+  "category": "Pet Food",
+  "price": 9.99,
+  "url": "https://i.ibb.co/0cVZ1tp/212.jpg",
+  "id": 232
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd810"
+  },
+  "name": "Esocid Tablet",
+  "productDescription": "H2 receptor antagonist for peptic ulcers",
+  "measurement": "20 tablets",
+  "company": "Eskayef Pharmaceuticals Ltd.",
+  "generic": "Famotidine",
+  "category": "Digestive Health",
+  "price": 180.49,
+  "country": "Bangladesh",
+  "id": 12
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd82c"
+  },
+  "name": "AviCare Feather Mite Spray",
+  "productDescription": "Feather mite spray for birds",
+  "measurement": "100 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Ivermectin",
+  "category": "Pet Medicine",
+  "price": 85.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/7Cqs0Yt/29.jpg",
+  "id": 38
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd804"
+  },
+  "name": "ACI Acinil O Syrup ",
+  "productDescription": "Antacid syrup for heartburn and acidity relief bd",
+  "measurement": "200 ml",
+  "company": "ACI Limited",
+  "generic": "Aluminum Hydroxide, Magnesium Hydroxide, Simethicone",
+  "category": "Digestive Health",
+  "price": 199,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/TWc0YtC/1.jpg",
+  "id": 0,
+  "updatedAt": {
+    "$date": "2024-06-07T13:31:40.569Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd82a"
+  },
+  "name": "AvianVet Iron Tonic",
+  "productDescription": "Iron tonic for birds",
+  "measurement": "30 ml",
+  "company": "Navana Animal Health",
+  "generic": "Iron, Folic Acid",
+  "category": "Pet Medicine",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/71qhxch/27.jpg",
+  "id": 36
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd837"
+  },
+  "name": "PondGuard Pond Water Treatment",
+  "productDescription": "Water treatment for fish ponds",
+  "measurement": "250 ml",
+  "company": "Incepta Animal Health",
+  "generic": "Potassium Permanganate",
+  "category": "Pet Medicine",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/vdjvngb/40.jpg",
+  "id": 49
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd83e"
+  },
+  "name": "Amaryl M Tablet",
+  "productDescription": "Combination tablet for diabetes management",
+  "measurement": "15 tablets",
+  "company": "Sanofi Bangladesh Limited",
+  "generic": "Glimepiride, Metformin Hydrochloride",
+  "category": "Diabetes",
+  "price": 200.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/3WK6BMC/46.jpg",
+  "id": 55
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd882"
+  },
+  "name": "Enalapril 10 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension and heart failure",
+  "measurement": "28 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Enalapril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 47.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/w0m4yhs/110.jpg",
+  "id": 119
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd884"
+  },
+  "name": "Olmesartan 20 mg Tablet",
+  "productDescription": "ARB for hypertension and chronic kidney disease",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Olmesartan",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 62.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1Xm2rPB/112.jpg",
+  "id": 121
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd886"
+  },
+  "name": "Perindopril 4 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Perindopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 46.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/bd5LL72/114.jpg",
+  "id": 123
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd89c"
+  },
+  "name": "Telmisartan HCTZ 80/12.5 mg Tablet",
+  "productDescription": "Combination ARB and thiazide diuretic for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Telmisartan, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 70.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/cycPgC3/135.jpg",
+  "id": 144
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd89e"
+  },
+  "name": "Metoprolol XL 50 mg Tablet",
+  "productDescription": "Extended-release beta-blocker for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Metoprolol Succinate",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 56.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/6Wnw17k/137.jpg",
+  "id": 146
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8bf"
+  },
+  "name": "BabyCalm Soothing Lotion",
+  "productDescription": "Soothing lotion for babies' dry and sensitive skin",
+  "measurement": "200 ml",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Chamomile Extract, Calendula Extract",
+  "category": "Baby Medicine",
+  "price": 48.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/F7R5xsh/157.jpg",
+  "id": 177
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8f7"
+  },
+  "name": "Senior Dog Food",
+  "productDescription": "Special formula for senior dogs",
+  "measurement": "4.5 kg",
+  "company": "GoldenYears",
+  "generic": "Lamb, Brown Rice, Glucosamine",
+  "category": "Pet Food",
+  "price": 29.99,
+  "url": "https://i.ibb.co/gvvyrx5/208.jpg",
+  "id": 228
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd85a"
+  },
+  "name": "Mefen 250",
+  "productDescription": "Mefenamic acid capsules for pain relief",
+  "measurement": "24 capsules",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Mefenamic Acid",
+  "category": "Fever & Pain",
+  "price": 80.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/4465QWS/72.jpg",
+  "id": 81
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd806"
+  },
+  "name": "Esocid Tablet",
+  "productDescription": "H2 receptor antagonist for peptic ulcers",
+  "measurement": "20 tablets",
+  "company": "Eskayef Pharmaceuticals Ltd.",
+  "generic": "Famotidine",
+  "category": "Digestive Health",
+  "price": 180.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/5kd3mPJ/2.jpg",
+  "id": 2
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd81c"
+  },
+  "name": "AquaPaws Oral Rinse",
+  "productDescription": "Oral rinse for dental care in dogs and cats",
+  "measurement": "250 ml",
+  "company": "ACI Animal Health",
+  "generic": "Chlorhexidine Gluconate",
+  "category": "Pet Medicine",
+  "price": 120.25,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/s5bHKcV/13.jpg",
+  "id": 23
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd805"
+  },
+  "name": "Gastrozep Capsule",
+  "productDescription": "Proton pump inhibitor for acid-related disorders",
+  "measurement": "14 capsules",
+  "company": "Renata Limited",
+  "generic": "Omeprazole",
+  "category": "Digestive Health",
+  "price": 250.75,
+  "country": "Bangladesh",
+  "id": 1
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd836"
+  },
+  "name": "EquiCare Horse Fly Repellent",
+  "productDescription": "Fly repellent spray for horses",
+  "measurement": "500 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Permethrin, Citronella Oil",
+  "category": "Pet Medicine",
+  "price": 190.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/FDzmRYp/39.jpg",
+  "id": 48
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd83b"
+  },
+  "name": "Insulix Insulin Pen",
+  "productDescription": "Disposable insulin pen for convenient dosage",
+  "measurement": "1 pen",
+  "company": "Renata Limited",
+  "generic": "Insulin Lispro",
+  "category": "Diabetes",
+  "price": 250.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Th9rh3m/43.jpg",
+  "id": 52
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd845"
+  },
+  "name": "DiaFree Blood Pressure Monitor",
+  "productDescription": "Digital blood pressure monitor",
+  "measurement": "1 monitor",
+  "company": "ACI Limited",
+  "generic": "Blood Pressure Monitor",
+  "category": "Diabetes",
+  "price": 320.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/R66DFyr/53.jpg",
+  "id": 62
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd84a"
+  },
+  "name": "Zita Plus Sitagliptin Tablet sa",
+  "productDescription": "Dipeptidyl peptidase-4 (DPP-4) inhibitor",
+  "measurement": "14 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Sitagliptin",
+  "category": "Diabetes",
+  "price": 180.5,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/G3KRbz0/58.jpg",
+  "id": 67,
+  "updatedAt": {
+    "$date": "2024-08-15T05:24:32.144Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd850"
+  },
+  "name": "Ibuprofen 400",
+  "productDescription": "Ibuprofen tablets for pain and inflammation",
+  "measurement": "30 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Ibuprofen",
+  "category": "Fever & Pain",
+  "price": 85.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/0pbHmzF/63.jpg",
+  "id": 72
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd85b"
+  },
+  "name": "KoolFast Cold Pack",
+  "productDescription": "Instant cold pack for pain and swelling relief",
+  "measurement": "1 pack",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Cold Pack",
+  "category": "Fever & Pain",
+  "price": 25.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/4P202xZ/73.jpg",
+  "id": 82
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8ee"
+  },
+  "name": "Insulin Syringes",
+  "productDescription": "Syringes for insulin injection",
+  "measurement": "100 syringes",
+  "company": "EasyDose",
+  "generic": "Insulin Syringes",
+  "category": "Diabetes",
+  "price": 15.99,
+  "url": "https://i.ibb.co/7bQg9py/200.jpg",
+  "id": 220
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8f2"
+  },
+  "name": "Diabetes Management Journal",
+  "productDescription": "Journal to track blood sugar and meals",
+  "measurement": "1 journal",
+  "company": "DiabTracker",
+  "generic": "Diabetes Management Journal",
+  "category": "Diabetes",
+  "price": 10.99,
+  "url": "https://i.ibb.co/D8kcC5g/204.jpg",
+  "id": 224
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8f8"
+  },
+  "name": "Fish Treats for Cats",
+  "productDescription": "Tasty fish treats for cats",
+  "measurement": "200 gm",
+  "company": "FishyBites",
+  "generic": "Tuna, Salmon, Catnip",
+  "category": "Pet Food",
+  "price": 8.99,
+  "url": "https://i.ibb.co/wdns7cY/209.jpg",
+  "id": 229
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd81a"
+  },
+  "name": "FelineVet Vitamin Supplement",
+  "productDescription": "Multivitamin supplement for cats",
+  "measurement": "60 chewable tablets",
+  "company": "Incepta Animal Health",
+  "generic": "Multivitamins",
+  "category": "Pet Medicine",
+  "price": 250.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/tDvHKd8/11.jpg",
+  "id": 21
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd81b"
+  },
+  "name": "CanineGuard Tick & Flea Spray",
+  "productDescription": "Tick and flea control spray for dogs",
+  "measurement": "200 ml",
+  "company": "Opsonin Animal Health",
+  "generic": "Fipronil",
+  "category": "Pet Medicine",
+  "price": 180.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/VJFr6jy/12.jpg",
+  "id": 22
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd82e"
+  },
+  "name": "PawProtect Paw Balm",
+  "productDescription": "Paw balm for dogs and cats",
+  "measurement": "50 gm",
+  "company": "Incepta Animal Health",
+  "generic": "Beeswax, Shea Butter",
+  "category": "Pet Medicine",
+  "price": 80.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/whwNbQj/31.jpg",
+  "id": 40
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd867"
+  },
+  "name": "Seroflo 250 Inhaler",
+  "productDescription": "Combination inhaler for asthma and COPD",
+  "measurement": "1 inhaler",
+  "company": "Cipla (Bangladesh) Limited",
+  "generic": "Fluticasone, Salmeterol",
+  "category": "Allergy & Asthma",
+  "price": 240.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/yp7m8dX/84.jpg",
+  "id": 93
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd87d"
+  },
+  "name": "Ramipril 5 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension and heart failure",
+  "measurement": "28 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Ramipril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 45.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/6gwrrbF/105.jpg",
+  "id": 114
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd894"
+  },
+  "name": "Metolol 100 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension and angina",
+  "measurement": "30 tablets",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Metoprolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 42.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/ssH3HVJ/127.jpg",
+  "id": 136
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8ab"
+  },
+  "name": "Telmisartan HCTZ 80/12.5 mg Tablet",
+  "productDescription": "Combination ARB and thiazide diuretic for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Telmisartan, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 70.75,
+  "country": "Bangladesh",
+  "id": 159
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b1"
+  },
+  "name": "BabyRelief Ointment",
+  "productDescription": "Topical ointment for diaper rash and skin irritation",
+  "measurement": "20 gm",
+  "company": "Renata Limited",
+  "generic": "Zinc Oxide, Calamine",
+  "category": "Baby Medicine",
+  "price": 30.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/drMCWPG/145.jpg",
+  "id": 164
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c1"
+  },
+  "name": "BabyAllergy Relief Syrup",
+  "productDescription": "Antihistamine syrup for babies' allergy relief",
+  "measurement": "60 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Cetirizine",
+  "category": "Baby Medicine",
+  "price": 55.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/k8XKp6v/159.jpg",
+  "id": 179
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d9"
+  },
+  "name": "BabyGentle Baby Oil",
+  "productDescription": "Mild baby oil for gentle massage and skin care",
+  "measurement": "200 ml",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Olive Oil, Vitamin E",
+  "category": "Skin & Hair Condition",
+  "price": 38.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/BqQ393B/181.jpg",
+  "id": 201
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e0"
+  },
+  "name": "Vitamin D3 Drops",
+  "productDescription": "Vitamin D supplement for bone health",
+  "measurement": "30 ml",
+  "company": "HealthFirst",
+  "generic": "Vitamin D3",
+  "category": "Vitamins & Supplements",
+  "price": 12.49,
+  "url": "https://i.ibb.co/9w6KwsT/187.jpg",
+  "id": 207
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e5"
+  },
+  "name": "Iron Supplement",
+  "productDescription": "Iron supplement for iron deficiency",
+  "measurement": "90 tablets",
+  "company": "IronLife",
+  "generic": "Iron (Ferrous Sulfate)",
+  "category": "Vitamins & Supplements",
+  "price": 13.99,
+  "url": "https://i.ibb.co/vcKBg6d/192.jpg",
+  "id": 212
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd85c"
+  },
+  "name": "Nurofen Plus",
+  "productDescription": "Ibuprofen and codeine tablets for strong pain relief",
+  "measurement": "12 tablets",
+  "company": "Reckitt Benckiser (Bangladesh) Ltd.",
+  "generic": "Ibuprofen, Codeine Phosphate",
+  "category": "Fever & Pain",
+  "price": 150.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/GpdRLRK/74.jpg",
+  "id": 83
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd86c"
+  },
+  "name": "Cromal Eye Drops",
+  "productDescription": "Mast cell stabilizer eye drops for allergy relief",
+  "measurement": "10 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Sodium Cromoglycate",
+  "category": "Allergy & Asthma",
+  "price": 80.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/bzmd7sd/89.jpg",
+  "id": 98
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd872"
+  },
+  "name": "Ketotifen Eye Drops",
+  "productDescription": "Antihistamine eye drops for allergy relief",
+  "measurement": "5 ml",
+  "company": "Renata Limited",
+  "generic": "Ketotifen",
+  "category": "Allergy & Asthma",
+  "price": 75.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1nxpsxd/95.jpg",
+  "id": 104
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd873"
+  },
+  "name": "Mometasone Nasal Spray",
+  "productDescription": "Corticosteroid nasal spray for allergic rhinitis",
+  "measurement": "10 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Mometasone Furoate",
+  "category": "Allergy & Asthma",
+  "price": 90.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Q8Xf0Vc/96.jpg",
+  "id": 105
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd888"
+  },
+  "name": "Diovan 160 mg Tablet",
+  "productDescription": "ARB for hypertension and heart failure",
+  "measurement": "28 tablets",
+  "company": "Renata Limited",
+  "generic": "Valsartan",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 70.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/G0nmBQh/116.jpg",
+  "id": 125
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd893"
+  },
+  "name": "Candesartan 16 mg Tablet",
+  "productDescription": "ARB for hypertension and heart failure",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Candesartan",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 58.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/HV27fYW/126.jpg",
+  "id": 135
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b3"
+  },
+  "name": "BabyVax 5-in-1 Vaccine",
+  "productDescription": "Combination vaccine for babies' immunization",
+  "measurement": "1 dose",
+  "company": "Incepta Vaccines Ltd.",
+  "generic": "DTaP, Hib, Hep B",
+  "category": "Baby Medicine",
+  "price": 450.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/9cD5RjS/147.jpg",
+  "id": 166
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8be"
+  },
+  "name": "BabyTummy Relief Drops",
+  "productDescription": "Gripe water drops for infants' stomach discomfort",
+  "measurement": "30 ml",
+  "company": "ACI Limited",
+  "generic": "Dill Oil, Fennel Oil",
+  "category": "Baby Medicine",
+  "price": 30.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/gWkZHc5/156.jpg",
+  "id": 176
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8da"
+  },
+  "name": "SunRepair After Sun Gel",
+  "productDescription": "Soothing after-sun gel for sunburn relief",
+  "measurement": "100 ml",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Aloe Vera, Calendula Extract",
+  "category": "Skin & Hair Condition",
+  "price": 32.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/K2ZWbBJ/182.jpg",
+  "id": 202
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e4"
+  },
+  "name": "Probiotic Blend",
+  "productDescription": "Probiotics for gut health",
+  "measurement": "30 capsules",
+  "company": "GutBalance",
+  "generic": "Probiotic Blend",
+  "category": "Vitamins & Supplements",
+  "price": 17.99,
+  "url": "https://i.ibb.co/Qmrk1rx/191.jpg",
+  "id": 211
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd830"
+  },
+  "name": "AquaClean Aquarium Water Conditioner",
+  "productDescription": "Water conditioner for fish tanks",
+  "measurement": "250 ml",
+  "company": "Incepta Animal Health",
+  "generic": "Dechlorinator",
+  "category": "Pet Medicine",
+  "price": 120.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/FqSYnp9/33.jpg",
+  "id": 42
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd83c"
+  },
+  "name": "DiaCare Blood Glucose Monitor",
+  "productDescription": "Accurate blood glucose monitoring system",
+  "measurement": "1 monitor",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Blood Glucose Monitor",
+  "category": "Diabetes",
+  "price": 480.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/nc6vsKh/44.jpg",
+  "id": 53
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd841"
+  },
+  "name": "Victoza Injection",
+  "productDescription": "Injectable GLP-1 receptor agonist for diabetes",
+  "measurement": "2 pens (1.2 mg)",
+  "company": "Novo Nordisk",
+  "generic": "Liraglutide",
+  "category": "Diabetes",
+  "price": 320.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/brsnFdZ/49.jpg",
+  "id": 58
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd843"
+  },
+  "name": "Galvus Met Tablet",
+  "productDescription": "Combination tablet for diabetes management",
+  "measurement": "14 tablets",
+  "company": "Novartis (Bangladesh) Limited",
+  "generic": "Vildagliptin, Metformin Hydrochloride",
+  "category": "Diabetes",
+  "price": 180.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/JsnbKgZ/51.jpg",
+  "id": 60
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd848"
+  },
+  "name": "DiaMix Nutritional Drink",
+  "productDescription": "Diabetic nutritional drink",
+  "measurement": "200 ml",
+  "company": "Incepta Nutraceuticals Ltd.",
+  "generic": "Nutritional Drink",
+  "category": "Diabetes",
+  "price": 50.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/vYF82zR/56.jpg",
+  "id": 65
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd84c"
+  },
+  "name": "Galvus Vildagliptin Tablet",
+  "productDescription": "Dipeptidyl peptidase-4 (DPP-4) inhibitor",
+  "measurement": "30 tablets",
+  "company": "Novartis (Bangladesh) Limited",
+  "generic": "Vildagliptin",
+  "category": "Diabetes",
+  "price": 120.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/bNVSdz6/60.jpg",
+  "id": 69
+},
+{
+  "_id": {
+    "$oid": "64c233eeb34f3f3df94bd861"
+  },
+  "name": "Flamax Tablet",
+  "productDescription": "Fast-acting pain relief tablet",
+  "measurement": "14 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Ibuprofen",
+  "category": "Fever & Pain",
+  "price": 90.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/T8Pmc0n/79.jpg",
+  "id": 88
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd879"
+  },
+  "name": "Amlodipine 5 mg Tablet",
+  "productDescription": "Calcium channel blocker for hypertension",
+  "measurement": "30 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Amlodipine",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 50.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/85rypJp/101.jpg",
+  "id": 110
+},
+{
+  "_id": {
+    "$oid": "64c23532b34f3f3df94bd87c"
+  },
+  "name": "Metoprolol 25 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension and heart disease",
+  "measurement": "30 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Metoprolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 60.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/JymrcrC/104.jpg",
+  "id": 113
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a5"
+  },
+  "name": "Felodipine 5 mg Tablet",
+  "productDescription": "Calcium channel blocker for hypertension",
+  "measurement": "28 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Felodipine",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 59.75,
+  "country": "Bangladesh",
+  "id": 153
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8ad"
+  },
+  "name": "BabyGrip Syrup",
+  "productDescription": "Infant paracetamol syrup for fever and pain relief",
+  "measurement": "60 ml",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Paracetamol",
+  "category": "Baby Medicine",
+  "price": 45.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/cJVvWqy/141.jpg",
+  "id": 160
+},
+{
+  "_id": {
+    "$oid": "64c23609b34f3f3df94bd8b5"
+  },
+  "name": "BabyGripe Elixir",
+  "productDescription": "Herbal elixir for colic and gas relief in infants",
+  "measurement": "60 ml",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Dill Oil, Fennel Oil",
+  "category": "Baby Medicine",
+  "price": 38.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/c60FByG/149.jpg",
+  "id": 168
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8bb"
+  },
+  "name": "BabyCare Probiotic Drops",
+  "productDescription": "Probiotic drops for babies' digestive health",
+  "measurement": "30 ml",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Lactobacillus Reuteri",
+  "category": "Baby Medicine",
+  "price": 36.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/tQ0Bf5L/154.jpg",
+  "id": 173
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8c8"
+  },
+  "name": "GlowSkin Face Cream",
+  "productDescription": "Moisturizing cream for glowing and healthy skin",
+  "measurement": "50 gm",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Vitamin E, Aloe Vera",
+  "category": "Skin & Hair Condition",
+  "price": 75.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/74C9c6f/165.jpg",
+  "id": 185
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8cc"
+  },
+  "name": "DandruffOff Shampoo",
+  "productDescription": "Anti-dandruff shampoo for dandruff control",
+  "measurement": "200 ml",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Ketoconazole, Zinc Pyrithione",
+  "category": "Skin & Hair Condition",
+  "price": 65.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/PD53Xtw/169.jpg",
+  "id": 189
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e1"
+  },
+  "name": "Calcium with Magnesium",
+  "productDescription": "Calcium and Magnesium for strong bones",
+  "measurement": "90 tablets",
+  "company": "Nature's Best",
+  "generic": "Calcium, Magnesium",
+  "category": "Vitamins & Supplements",
+  "price": 15.99,
+  "url": "https://i.ibb.co/Gn1MbWx/188.jpg",
+  "id": 208
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8e9"
+  },
+  "name": "Glucose Control Tablets",
+  "productDescription": "Tablets to help manage blood sugar levels",
+  "measurement": "90 tablets",
+  "company": "DiabLife",
+  "generic": "Metformin, Alpha Lipoic Acid",
+  "category": "Diabetes",
+  "price": 25.99,
+  "url": "https://i.ibb.co/zFK7nYj/195.jpg",
+  "id": 215
+},
+{
+  "_id": {
+    "$oid": "64c256ebb34f3f3df94bd8fc"
+  },
+  "name": "Puppy Milk Replacer",
+  "productDescription": "Milk replacer for orphaned puppies",
+  "measurement": "400 gm",
+  "company": "PuppyLove",
+  "generic": "Milk Powder, DHA",
+  "category": "Pet Food",
+  "price": 14.49,
+  "url": "https://i.ibb.co/s3mT78r/213.jpg",
+  "id": 233
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd80a"
+  },
+  "name": "Lactaid Digestive Supplement",
+  "productDescription": "Helps digest lactose in dairy products",
+  "measurement": "30 caplets",
+  "company": "Johnson & Johnson",
+  "generic": "Lactase",
+  "category": "Digestive Health",
+  "price": 130.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/K9d4MRT/6.jpg",
+  "id": 6
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd80b"
+  },
+  "name": "Digel Liquid Antacid",
+  "productDescription": "Rapid relief from acidity and heartburn",
+  "measurement": "170 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Magnesium Hydroxide, Aluminium Hydroxide",
+  "category": "Digestive Health",
+  "price": 85.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/MZ9db0x/7.jpg",
+  "id": 7
+},
+{
+  "_id": {
+    "$oid": "64c2302fb34f3f3df94bd816"
+  },
+  "name": "Enterogermina Oral Suspension",
+  "productDescription": "Probiotic suspension for intestinal disorders",
+  "measurement": "5 ml",
+  "company": "Sanofi Bangladesh Limited",
+  "generic": "Bacillus Clausii",
+  "category": "Digestive Health",
+  "price": 40.25,
+  "country": "Bangladesh",
+  "id": 18
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd865"
+  },
+  "name": "Ventolin Inhaler",
+  "productDescription": "Bronchodilator inhaler for asthma",
+  "measurement": "1 inhaler (100 mcg)",
+  "company": "GlaxoSmithKline Bangladesh Ltd.",
+  "generic": "Salbutamol",
+  "category": "Allergy & Asthma",
+  "price": 180.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/NTB3tk8/82.jpg",
+  "id": 91
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd86f"
+  },
+  "name": "Asthafen Tablet",
+  "productDescription": "Mast cell stabilizer for asthma and allergic rhinitis",
+  "measurement": "30 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Ketotifen",
+  "category": "Allergy & Asthma",
+  "price": 90.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/pW5yyxq/92.jpg",
+  "id": 101
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd875"
+  },
+  "name": "Aerocort Inhaler",
+  "productDescription": "Combination inhaler for asthma",
+  "measurement": "1 inhaler",
+  "company": "Aristopharma Ltd.",
+  "generic": "Beclomethasone, Levosalbutamol",
+  "category": "Allergy & Asthma",
+  "price": 150.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/kJtTBsW/98.jpg",
+  "id": 107
+},
+{
+  "_id": {
+    "$oid": "64c2306fb34f3f3df94bd822"
+  },
+  "name": "WildWings Avian Antibiotic",
+  "productDescription": "Antibiotic powder for birds",
+  "measurement": "50 gm",
+  "company": "Incepta Animal Health",
+  "generic": "Enrofloxacin",
+  "category": "Pet Medicine",
+  "price": 220.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/8gpcgDt/20.jpg",
+  "id": 29
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a2"
+  },
+  "name": "Candesartan 16 mg Tablet",
+  "productDescription": "ARB for hypertension and heart failure",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Candesartan",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 58.75,
+  "country": "Bangladesh",
+  "id": 150
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a6"
+  },
+  "name": "Triamterene HCTZ 37.5/25 mg Tablet",
+  "productDescription": "Combination potassium-sparing diuretic and thiazide diuretic for hypertension",
+  "measurement": "30 tablets",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Triamterene, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 43.99,
+  "country": "Bangladesh",
+  "id": 154
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a7"
+  },
+  "name": "Losartan HCTZ 50/12.5 mg Tablet",
+  "productDescription": "Combination ARB and thiazide diuretic for hypertension",
+  "measurement": "14 tablets",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Losartan, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 65.75,
+  "country": "Bangladesh",
+  "id": 155
+},
+{
+  "_id": {
+    "$oid": "64c230f6b34f3f3df94bd825"
+  },
+  "name": "Purrfect Health Hairball Remedy",
+  "productDescription": "Hairball remedy for cats",
+  "measurement": "100 ml",
+  "company": "Incepta Animal Health",
+  "generic": "Petroleum Jelly, Malt Extract",
+  "category": "Pet Medicine",
+  "price": 150.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/9WPJH6b/22.jpg",
+  "id": 31
+},
+{
+  "_id": {
+    "$oid": "64c2316bb34f3f3df94bd840"
+  },
+  "name": "GlucoRite Glucose Tablets",
+  "productDescription": "Fast-acting glucose tablets for hypoglycemia",
+  "measurement": "50 tablets",
+  "company": "Renata Limited",
+  "generic": "Dextrose",
+  "category": "Diabetes",
+  "price": 60.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/fpcXf5R/48.jpg",
+  "id": 57
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a8"
+  },
+  "name": "Nebivolol 10 mg Tablet",
+  "productDescription": "Beta-blocker for hypertension",
+  "measurement": "20 tablets",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Nebivolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 50.49,
+  "country": "Bangladesh",
+  "id": 156
+},
+{
+  "_id": {
+    "$oid": "64c232c1b34f3f3df94bd855"
+  },
+  "name": "Aspirin 81 mg",
+  "productDescription": "Low-dose aspirin for heart health",
+  "measurement": "100 tablets",
+  "company": "ACME Laboratories Ltd.",
+  "generic": "Aspirin",
+  "category": "Fever & Pain",
+  "price": 75.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Q8nGT9f/68.jpg",
+  "id": 77
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd868"
+  },
+  "name": "Zyrtec 10 mg Tablet",
+  "productDescription": "Antihistamine tablet for allergy relief",
+  "measurement": "20 tablets",
+  "company": "UCB Bangladesh",
+  "generic": "Cetirizine",
+  "category": "Allergy & Asthma",
+  "price": 70.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/GQ3TjdT/85.jpg",
+  "id": 94
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8ba"
+  },
+  "name": "TeethEase Gel (Fluoride Free)",
+  "productDescription": "Fluoride-free teething gel for babies",
+  "measurement": "15 gm",
+  "company": "Incepta Pharmaceuticals Ltd.",
+  "generic": "Chamomile Extract",
+  "category": "Baby Medicine",
+  "price": 42.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/YXsSPpr/153.jpg",
+  "id": 172
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c2"
+  },
+  "name": "BabyGrowth Calcium Drops",
+  "productDescription": "Calcium supplement drops for babies' bone health",
+  "measurement": "10 ml",
+  "company": "Opsonin Pharma Limited",
+  "generic": "Calcium",
+  "category": "Baby Medicine",
+  "price": 29.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/DC50SgV/160.jpg",
+  "id": 180
+},
+{
+  "_id": {
+    "$oid": "64c23468b34f3f3df94bd86b"
+  },
+  "name": "Nasoclear Nasal Spray",
+  "productDescription": "Saline nasal spray for allergy relief",
+  "measurement": "20 ml",
+  "company": "ACI Limited",
+  "generic": "Sodium Chloride",
+  "category": "Allergy & Asthma",
+  "price": 50.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/tKsCmN9/88.jpg",
+  "id": 97
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd890"
+  },
+  "name": "Fosinopril 20 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Fosinopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 55.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/QNQG0x3/123.jpg",
+  "id": 132
+},
+{
+  "_id": {
+    "$oid": "64c23682b34f3f3df94bd8c3"
+  },
+  "name": "BabyVax Rotavirus Vaccine",
+  "productDescription": "Vaccine for babies' protection against rotavirus infection",
+  "measurement": "1 dose",
+  "company": "Incepta Vaccines Ltd.",
+  "generic": "Rotavirus Vaccine",
+  "category": "Baby Medicine",
+  "price": 550.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/zNHkZWK/161.jpg",
+  "id": 181
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd891"
+  },
+  "name": "Propranolol SR 80 mg Capsule",
+  "productDescription": "Sustained-release beta-blocker for hypertension",
+  "measurement": "28 capsules",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Propranolol",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 47.75,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/1d2h3bx/124.jpg",
+  "id": 133
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8f1"
+  },
+  "name": "Insulin Travel Case",
+  "productDescription": "Travel case to store insulin and supplies",
+  "measurement": "1 case",
+  "company": "InsuPort",
+  "generic": "Insulin Travel Case",
+  "category": "Diabetes",
+  "price": 22.99,
+  "url": "https://i.ibb.co/7b57LSy/203.jpg",
+  "id": 223
+},
+{
+  "_id": {
+    "$oid": "64c2357db34f3f3df94bd895"
+  },
+  "name": "Lisinopril HCT 20/12.5 mg Tablet",
+  "productDescription": "Combination ACE inhibitor and thiazide diuretic for hypertension",
+  "measurement": "20 tablets",
+  "company": "Renata Limited",
+  "generic": "Lisinopril, Hydrochlorothiazide",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 63.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/mTnqRkX/128.jpg",
+  "id": 137
+},
+{
+  "_id": {
+    "$oid": "64c2357eb34f3f3df94bd8a9"
+  },
+  "name": "Perindopril 8 mg Tablet",
+  "productDescription": "ACE inhibitor for hypertension",
+  "measurement": "30 tablets",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Perindopril",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 54.99,
+  "country": "Bangladesh",
+  "id": 157
+},
+{
+  "_id": {
+    "$oid": "64c236cfb34f3f3df94bd8ce"
+  },
+  "name": "BabySoft Baby Lotion",
+  "productDescription": "Gentle baby lotion for soft and supple skin",
+  "measurement": "100 ml",
+  "company": "Square Pharmaceuticals Ltd.",
+  "generic": "Glycerin, Shea Butter",
+  "category": "Skin & Hair Condition",
+  "price": 35.49,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/Gpp1tm9/171.jpg",
+  "id": 191
+},
+{
+  "_id": {
+    "$oid": "64c23707b34f3f3df94bd8d7"
+  },
+  "name": "SkinErase Dark Spot Cream",
+  "productDescription": "Cream for fading dark spots and pigmentation",
+  "measurement": "20 gm",
+  "company": "Beximco Pharmaceuticals Ltd.",
+  "generic": "Kojic Acid, Niacinamide",
+  "category": "Skin & Hair Condition",
+  "price": 58.99,
+  "country": "Bangladesh",
+  "url": "https://i.ibb.co/PDvyqqN/179.jpg",
+  "id": 199
+},
+{
+  "_id": {
+    "$oid": "64c25537b34f3f3df94bd8e6"
+  },
+  "name": "Vitamin B12 Sublingual",
+  "productDescription": "Sublingual Vitamin B12 for energy",
+  "measurement": "100 tablets",
+  "company": "EnergyVit",
+  "generic": "Vitamin B12 (Methylcobalamin)",
+  "category": "Vitamins & Supplements",
+  "price": 16.99,
+  "url": "https://i.ibb.co/gmNV88b/193.jpg",
+  "id": 213
+},
+{
+  "_id": {
+    "$oid": "64c25607b34f3f3df94bd8ed"
+  },
+  "name": "Continuous Glucose Monitor",
+  "productDescription": "CGM sensor for real-time glucose monitoring",
+  "measurement": "3 sensors",
+  "company": "Sensoguard",
+  "generic": "Continuous Glucose Monitor",
+  "category": "Diabetes",
+  "price": 89.99,
+  "url": "https://i.ibb.co/yPS7LsR/199.jpg",
+  "id": 219
+},
+{
+  "_id": {
+    "$oid": "64e225aeb0b2b805add47b02"
+  },
+  "name": "hello test",
+  "productDescription": "hello test",
+  "measurement": "hello test",
+  "company": "hello test",
+  "generic": "hello test",
+  "category": "Diabetes",
+  "price": 110220,
+  "createdAt": {
+    "$date": "2023-08-20T14:39:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T14:39:42.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e225e4b0b2b805add47b09"
+  },
+  "name": "News",
+  "productDescription": "hello test",
+  "measurement": "hello test",
+  "company": "Hasibul Islam",
+  "generic": "hello test",
+  "category": "Baby Medicine",
+  "price": 15,
+  "createdAt": {
+    "$date": "2023-08-20T14:40:36.817Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T14:40:36.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e2263fb0b2b805add47b0e"
+  },
+  "name": "YourName",
+  "productDescription": "ewe",
+  "measurement": "wwe",
+  "company": "wewe",
+  "generic": "wewe",
+  "category": "Pet Medicine",
+  "price": 77,
+  "createdAt": {
+    "$date": "2023-08-20T14:42:07.035Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T14:42:07.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e226dcb0b2b805add47b13"
+  },
+  "name": "News15",
+  "productDescription": "sds",
+  "measurement": "sds",
+  "company": "sd",
+  "generic": "dsd",
+  "category": "Blood Pressure & Heart Disease",
+  "price": 45,
+  "createdAt": {
+    "$date": "2023-08-20T14:44:44.961Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T14:44:44.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e22743e873fec98f4b0919"
+  },
+  "name": "News16",
+  "productDescription": "Accurate blood glucose monitoring system\n",
+  "measurement": "hello test",
+  "url": "https://i.ibb.co/YpZSQBc/sss.jpg",
+  "company": "Hasi Islam",
+  "generic": "hello test",
+  "category": "Pet Medicine",
+  "price": 45,
+  "createdAt": {
+    "$date": "2023-08-20T14:46:27.718Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-29T18:24:40.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e232cfb5098e72f017492b"
+  },
+  "name": "Fluconazole",
+  "productDescription": "Fluconazole is used to prevent and treat a variety of fungal and yeast infections.",
+  "measurement": "10",
+  "url": "https://i.ibb.co/pfkVcww/214.jpg",
+  "company": "AFUNGIL",
+  "generic": "Fluconazole",
+  "category": "Pet Medicine",
+  "price": 150,
+  "createdAt": {
+    "$date": "2023-08-20T15:35:43.401Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T15:35:43.401Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e2338ab5098e72f0174930"
+  },
+  "name": "Doxycycline",
+  "productDescription": "Doxycycline is a broad-spectrum antibiotic of the tetracycline class used in the treatment of infections caused by bacteria and certain parasites.",
+  "measurement": "5",
+  "url": "https://i.ibb.co/nLZvxRD/215.jpg",
+  "company": "Vibramycin",
+  "generic": "Doxycycline",
+  "category": "Pet Medicine",
+  "price": 100,
+  "createdAt": {
+    "$date": "2023-08-20T15:38:50.821Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T15:38:50.821Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e23440b5098e72f0174933"
+  },
+  "name": "Oseltamivir",
+  "productDescription": "Oseltamivir, sold under the brand name Tamiflu, is an antiviral medication used to treat and prevent influenza A and influenza B, viruses that cause the flu.",
+  "measurement": "8",
+  "url": "https://i.ibb.co/4RtNq67/216.jpg",
+  "company": "Tamiflu",
+  "generic": "Oseltamivir",
+  "category": "Pet Medicine",
+  "price": 90,
+  "createdAt": {
+    "$date": "2023-08-20T15:41:52.805Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-20T15:41:52.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66438b3c992357cd9fa6c680"
+  },
+  "name": "Hasibul Islam",
+  "productDescription": "we",
+  "measurement": "wewe",
+  "company": "silktech",
+  "generic": "qeq",
+  "category": " Baby Products & Medicine",
+  "price": 445.85,
+  "createdAt": {
+    "$date": "2024-05-14T16:03:08.650Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:03:08.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664391b47f2c36bac8d5ca55"
+  },
+  "name": "ds",
+  "productDescription": "wew",
+  "measurement": "wewe",
+  "company": "wewe",
+  "generic": "wewe",
+  "category": " Baby Products & Medicine",
+  "price": 23,
+  "createdAt": {
+    "$date": "2024-05-14T16:30:44.737Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:30:44.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664392597f2c36bac8d5ca63"
+  },
+  "name": "Hasibul Islamdf",
+  "productDescription": "dsfdsfdf",
+  "measurement": "dfdf",
+  "company": "silktech",
+  "generic": "dfdf",
+  "category": "Fever & Pain",
+  "price": 34,
+  "createdAt": {
+    "$date": "2024-05-14T16:33:29.291Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:33:29.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6643929f7f2c36bac8d5ca68"
+  },
+  "name": "Hae",
+  "productDescription": "sd",
+  "measurement": "sd",
+  "company": "silktech",
+  "generic": "sd",
+  "category": "Fever & Pain",
+  "price": 32323,
+  "createdAt": {
+    "$date": "2024-05-14T16:34:39.329Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:34:39.329Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66439475a17aa7075699d4d3"
+  },
+  "name": "Hasibul Islam",
+  "productDescription": "dsd",
+  "measurement": "sdsd",
+  "company": "silktech",
+  "generic": "desd",
+  "category": "Fever & Pain",
+  "price": 32,
+  "createdAt": {
+    "$date": "2024-05-14T16:42:29.799Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:42:29.799Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6643948aa17aa7075699d4d8"
+  },
+  "name": "Hasibul Islam",
+  "productDescription": "sdsd",
+  "measurement": "sdsd",
+  "company": "silktech",
+  "generic": "sd",
+  "category": "Fever & Pain",
+  "price": 23,
+  "createdAt": {
+    "$date": "2024-05-14T16:42:50.663Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:42:50.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664398607d06d0e1397cfecb"
+  },
+  "name": "Hasibul Islamsd",
+  "productDescription": "sd",
+  "measurement": "sd",
+  "company": "silktech",
+  "generic": "sd",
+  "category": "Fever & Pain",
+  "price": 32323,
+  "createdAt": {
+    "$date": "2024-05-14T16:59:12.475Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:59:12.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664398857d06d0e1397cfed0"
+  },
+  "name": "Hasibul Islamsdsd",
+  "productDescription": "sd",
+  "measurement": "sd",
+  "company": "silktech",
+  "generic": "sd",
+  "category": "Fever & Pain",
+  "price": 32323,
+  "createdAt": {
+    "$date": "2024-05-14T16:59:49.059Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T16:59:49.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bccc61eb3cfbe0600583e2"
+  },
+  "name": "aaa",
+  "productDescription": "aaa",
+  "measurement": "123",
+  "company": "aaa",
+  "generic": "aaa",
+  "category": "Pet Food",
+  "price": 230,
+  "createdAt": {
+    "$date": "2024-08-14T15:25:21.723Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T15:25:21.723Z"
+  },
+  "__v": 0
+}]

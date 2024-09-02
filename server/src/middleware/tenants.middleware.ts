@@ -22,14 +22,11 @@ export class TenantsMiddleware implements NestMiddleware {
       const authorizationHeader = req.headers['authorization'];
       const [bearer, token] = authorizationHeader.split(' ');
       if (!token) {
-        throw new BadRequestException(
-          'X-TENANT-ID not provided and Authorization header not provided',
-        );
+        throw new BadRequestException('Authorization Token provided');
       }
       try {
         const decodedToken: any = jwt.decode(token);
         tenantId = decodedToken?.tenantId?.tenantId;
-        // console.log('🚀 ~ TenantsMiddleware ~ use ~ tenantId:', tenantId);
       } catch (error) {
         throw new UnauthorizedException('Invalid token');
       }

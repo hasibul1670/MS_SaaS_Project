@@ -8,8 +8,10 @@ import { Product } from './product.model';
 export class ProductService {
   constructor(@Inject('PRODUCT_MODEL') private ProductModel: Model<Product>) {}
 
-  create(body: any) {
-    return 'This action adds a new product';
+  async create(body: any) {
+    const result = await this.ProductModel.create(body);
+    console.log('🚀 ~ ProductService ~ create ~ result:', result);
+    return result;
   }
 
   findAll() {
