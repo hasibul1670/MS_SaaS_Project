@@ -17,28 +17,39 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
-
   @Post('admin-login')
-  async create(
+  async adminLogIn(
     @Body() loginAuthDto: LoginAuthDto,
     @Res({ passthrough: true }) response: Response,
   ): Promise<any> {
     const data = await this.authService.login(loginAuthDto);
     const { refreshToken, accessToken, admin } = data;
-
-    // res.cookie('refreshToken', refreshToken, { httpOnly: true, path: '/' });
-
     response.cookie('refresh_token', refreshToken, {
-      httpOnly: true, // Prevents client-side JavaScript from accessing the cookie
-      secure: process.env.NODE_ENV === 'production', // Ensures the cookie is only sent over HTTPS in production
-      maxAge: 150 * 24 * 60 * 60 * 1000, // 1 week
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 150 * 24 * 60 * 60 * 1000,
     });
-
     return createApiResponse(
       'success',
       200,
       'Admin is logged in successfully.',
       { accessToken, admin },
+    );
+  }
+
+  @Post('logout')
+  async adminLogOut(
+    @Res({ passthrough: true }) response: Response,
+  ): Promise<any> {
+    response.clearCookie('refresh_token', {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+    });
+
+    return createApiResponse(
+      'success',
+      200,
+      'Admin has been logged out successfully.',
     );
   }
 

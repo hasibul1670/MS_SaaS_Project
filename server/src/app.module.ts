@@ -8,14 +8,11 @@ import { LoggerMiddleware } from './helpers/logger/logger.middleware';
 import { RolesGuard } from './helpers/roleGuard/roles.guard';
 import { AdminModule } from './modules/admin/admin.module';
 import { AuthModule } from './modules/auth/auth.module';
-import { BillModule } from './modules/bill/bill.module';
 import { DatabaseServiceModule } from './modules/database-service/database-service.module';
 import { FeaturesModule } from './modules/features/features.module';
-import { ProductModule } from './modules/product/product.module';
 import { SuperAdminModule } from './modules/super-admin/super-admin.module';
 import { TenantModule } from './modules/tenant/tenant.module';
 import { UserModule } from './modules/user/user.module';
-import { LocationModule } from './modules/location/location.module';
 
 @Module({
   imports: [
@@ -36,17 +33,14 @@ import { LocationModule } from './modules/location/location.module';
       }),
       inject: [ConfigService],
     }),
-    ProductModule,
     TenantModule,
     UserModule,
     TenantModule,
     AuthModule,
     DatabaseServiceModule,
-    BillModule,
     SuperAdminModule,
     AdminModule,
     FeaturesModule,
-    LocationModule,
   ],
   controllers: [AppController],
   providers: [RolesGuard],
