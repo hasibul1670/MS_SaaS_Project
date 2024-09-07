@@ -20,7 +20,10 @@ export class AuthModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
       .apply(isLoggedIn)
-      .forRoutes({ path: 'auth/admin-login', method: RequestMethod.POST });
+      .forRoutes(
+        { path: 'auth/admin-login', method: RequestMethod.POST },
+        { path: 'auth/super-admin-login', method: RequestMethod.POST },
+      );
 
     consumer
       .apply(isLoggedOut)

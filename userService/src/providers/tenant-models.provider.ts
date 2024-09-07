@@ -1,4 +1,4 @@
-import { User, UserSchema } from 'src/modules/user/entities/user.entity';
+import { User, UserSchema } from 'src/modules/user/schema/user.schema';
 import { createModelProvider } from '../helpers/utills/tenantUtils';
 
 const userModelProvider = createModelProvider(

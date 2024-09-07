@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { SuperAdminService } from './super-admin.service';
+import { bcryptPasword } from 'src/helpers/bcryptPasword/bcryptPasword';
 import { SuperAdminController } from './super-admin.controller';
+import { SuperAdminService } from './super-admin.service';
 
 @Module({
   controllers: [SuperAdminController],
-  providers: [SuperAdminService],
+  providers: [SuperAdminService, bcryptPasword],
 })
 export class SuperAdminModule {}

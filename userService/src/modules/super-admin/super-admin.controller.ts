@@ -7,6 +7,7 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
+import { createApiResponse } from 'src/helpers/utills/common-response';
 import { CreateSuperAdminDto } from './dto/create-super-admin.dto';
 import { UpdateSuperAdminDto } from './dto/update-super-admin.dto';
 import { SuperAdminService } from './super-admin.service';
@@ -14,10 +15,15 @@ import { SuperAdminService } from './super-admin.service';
 @Controller('super-admin')
 export class SuperAdminController {
   constructor(private readonly superAdminService: SuperAdminService) {}
-
-  @Post()
-  create(@Body() createSuperAdminDto: CreateSuperAdminDto) {
-    return this.superAdminService.create(createSuperAdminDto);
+  @Post('create')
+  async create(@Body() createSuperAdminDto: CreateSuperAdminDto) {
+    const result = await this.superAdminService.create(createSuperAdminDto);
+    return createApiResponse(
+      'success',
+      200,
+      'Super Admin is created successfully.',
+      result,
+    );
   }
 
   @Get()

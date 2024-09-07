@@ -4,8 +4,8 @@ import { JwtTokenGeneratorService } from '../../helpers/JwtTokenGeneratorService
 import { bcryptPasword } from '../../helpers/bcryptPasword/bcryptPasword';
 import { ApiError } from '../../helpers/utills/ApiError';
 import { AdminModel } from '../admin/schema/admin.schema';
+import { SuperAdminModel } from '../super-admin/schema/super-admin.schema';
 import { LoginAuthDto } from './dto/login-auth.dto';
-import { UpdateAuthDto } from './dto/update-auth.dto';
 
 @Injectable()
 export class AuthService {
@@ -41,22 +41,29 @@ export class AuthService {
       refreshToken,
     };
   }
+  async loginSuperAdmin(loginAuthDto: LoginAuthDto) {
+    const { email, password } = loginAuthDto;
+    const admin = await SuperAdminModel.findOne({ email: email });
+    if (
+      !admin ||
+      !(await this.passwordService.comparePasswords(password, admin.password))
+    ) {
+      throw ApiError(
+        HttpStatus.UNAUTHORIZED,
+        'Invalid credentials',
+        'Invalid credentials',
+      );
+    }
+    const { password: _, ...adminWithoutPassword } = admin.toObject();
 
-  findAll() {
-    return `This action returns all auth`;
-  }
+    const payload = { ...adminWithoutPassword };
+    const accessToken = this.jwtTokenService.generateAccessToken(payload);
+    const refreshToken = this.jwtTokenService.generateRefreshToken(payload);
 
-  findOne(id: number) {
-    return `This action returns a #${id} auth`;
-  }
-
-  update(id: number, updateAuthDto: UpdateAuthDto) {
-    console.log('🚀 ~ AuthService ~ update ~ UpdateAuthDto:', updateAuthDto);
-
-    return `This action updates a #${id} auth`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} auth`;
+    return {
+      admin: adminWithoutPassword,
+      accessToken,
+      refreshToken,
+    };
   }
 }

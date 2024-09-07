@@ -1,26 +1,32 @@
-import { Inject, Injectable } from '@nestjs/common';
-import { Model } from 'mongoose';
+import { Injectable } from '@nestjs/common';
 import { ApiError } from 'src/helpers/utills/ApiError';
 import { findUnique } from 'src/helpers/utills/findUnique';
-import { CreateAdminDto } from '../admin/dto/create-admin.dto';
+import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { User } from './entities/user.entity';
+import { UserModel } from './schema/user.schema';
 
 @Injectable()
 export class UserService {
-  constructor(@Inject('USER_MODEL') private UserModel: Model<User>) {}
-
-  async create(createUserDto: CreateAdminDto) {
-    await findUnique(this.UserModel, 'email', createUserDto.email);
+  async create(createUserDto: CreateUserDto) {
+    const findUser = await findUnique(UserModel, 'email', createUserDto.email);
     try {
-      return await this.UserModel.create(createUserDto);
+      if (!findUser) {
+        const result = await UserModel.create(createUserDto);
+        return result;
+      }
     } catch (error) {
       ApiError(400, 'error', error.message);
     }
   }
 
-  findAll() {
-    return `This action returns all user`;
+  async findAllForAdmin(tenantId: string) {
+    const result = await UserModel.find({ tenantId: tenantId }).populate(
+      'tenantId',
+    );
+    return result;
+  }
+  async findAllForSuperAdmin() {
+    return await UserModel.find().populate('tenantId');
   }
 
   findOne(id: number) {
