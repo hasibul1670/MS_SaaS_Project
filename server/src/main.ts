@@ -3,7 +3,6 @@ import { NestFactory } from '@nestjs/core';
 import cookieParser from 'cookie-parser';
 import * as dotenv from 'dotenv';
 import { AppModule } from './app.module';
-import { AllExceptionsFilter } from './helpers/utills/all-exceptions.filter';
 import { validationPipe } from './helpers/utills/validation-pipe.config';
 dotenv.config();
 
@@ -14,7 +13,7 @@ async function bootstrap() {
   app.get(ConfigService);
   // Use global validation pipe
   app.useGlobalPipes(validationPipe);
-  app.useGlobalFilters(new AllExceptionsFilter());
+  // app.useGlobalFilters(new AllExceptionsFilter());
   await app.listen(5000);
 }
 bootstrap();

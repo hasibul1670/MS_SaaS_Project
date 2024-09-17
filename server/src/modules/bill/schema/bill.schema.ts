@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Document, model } from 'mongoose';
+import { Document } from 'mongoose';
 import {
   BillToDto,
   CreateBillDto,
@@ -40,6 +40,6 @@ export class Bill extends Document implements CreateBillDto {
   billTo: BillToDto;
 }
 
-const BillSchema = SchemaFactory.createForClass(Bill);
+export const BillSchema = SchemaFactory.createForClass(Bill);
 
-export const BillModel = model<CreateBillDto>('Bill', BillSchema);
+// export const BillModel = model<CreateBillDto>('Bill', BillSchema);

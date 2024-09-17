@@ -1,4 +1,13 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Delete,
+  Get,
+  Param,
+  Patch,
+  Post,
+} from '@nestjs/common';
+import { createApiResponse } from 'src/helpers/utills/common-response';
 import { BillService } from './bill.service';
 import { CreateBillDto } from './dto/create-bill.dto';
 import { UpdateBillDto } from './dto/update-bill.dto';
@@ -7,9 +16,15 @@ import { UpdateBillDto } from './dto/update-bill.dto';
 export class BillController {
   constructor(private readonly billService: BillService) {}
 
-  @Post()
-  create(@Body() createBillDto: CreateBillDto) {
-    return this.billService.create(createBillDto);
+  @Post('create-bill')
+  async create(@Body() createBillDto: CreateBillDto) {
+    const result = await this.billService.create(createBillDto);
+    return createApiResponse(
+      'success',
+      200,
+      'BIll is created successfully.',
+      result,
+    );
   }
 
   @Get()
