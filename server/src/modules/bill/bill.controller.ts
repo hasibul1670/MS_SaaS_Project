@@ -6,6 +6,7 @@ import {
   Param,
   Patch,
   Post,
+  Query,
 } from '@nestjs/common';
 import { createApiResponse } from 'src/helpers/utills/common-response';
 import { BillService } from './bill.service';
@@ -28,22 +29,50 @@ export class BillController {
   }
 
   @Get()
-  findAll() {
-    return this.billService.findAll();
+  async findAll(
+    @Query('page') page,
+    @Query('limit') limit,
+    @Query('search') search?,
+  ) {
+    const res = await this.billService.findAll({ page, limit, search });
+    return createApiResponse(
+      'success',
+      200,
+      'All Bill is Fetched successfully.',
+      res,
+    );
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.billService.findOne(+id);
+  async findOne(@Param('id') id: any) {
+    const res = await this.billService.findOne(id);
+    return createApiResponse(
+      'success',
+      200,
+      'Single Bill is Fetched   successfully.',
+      res,
+    );
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateBillDto: UpdateBillDto) {
-    return this.billService.update(+id, updateBillDto);
+  async update(@Param('id') id: any, @Body() updateBillDto: UpdateBillDto) {
+    const res = this.billService.update(id, updateBillDto);
+    return createApiResponse(
+      'success',
+      200,
+      ' Bill is Updated successfully.',
+      res,
+    );
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.billService.remove(+id);
+  async remove(@Param('id') id: any) {
+    const res = await this.billService.remove(id);
+    return createApiResponse(
+      'success',
+      200,
+      ' Bill is Deleted successfully.',
+      res,
+    );
   }
 }

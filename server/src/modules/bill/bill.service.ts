@@ -24,19 +24,69 @@ export class BillService {
     }
   }
 
-  findAll() {
-    return `This action returns all bill`;
+  async findAll({
+    page,
+    limit,
+    search,
+  }: {
+    page: any;
+    limit: number;
+    search?: string;
+  }) {
+    if (!limit && !page) {
+      (limit = 10), (page = 1);
+    }
+    const skip = (page - 1) * limit;
+    const query = search
+      ? {
+          $or: [
+            { name: new RegExp(search, 'i') },
+            { description: new RegExp(search, 'i') },
+          ],
+        }
+      : {};
+    const totalCount = await this.BillModel.countDocuments();
+    const data = await this.BillModel.find(query)
+      .skip(skip)
+      .limit(limit)
+      .exec();
+
+    return {
+      data,
+      totalCount,
+      currentPage: parseInt(page),
+      totalPages: Math.ceil(totalCount / limit),
+    };
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} bill`;
+  async findOne(id: number) {
+    return await this.BillModel.findOne({ billId: id });
   }
 
-  update(id: number, updateBillDto: UpdateBillDto) {
-    return `This action updates a #${id} bill`;
+  async update(id: number, updateBillDto: UpdateBillDto) {
+    const { partialPaymentData, ...restOfBody } = updateBillDto;
+    let updateQuery;
+    if (partialPaymentData) {
+      updateQuery = {
+        $push: { partialPaymentData: partialPaymentData },
+        $set: { ...restOfBody },
+      };
+    } else {
+      updateQuery = {
+        $set: restOfBody,
+      };
+    }
+    const res = await this.BillModel.findOneAndUpdate(
+      { billId: id },
+      updateQuery,
+      {
+        new: true,
+      },
+    );
+    return res;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} bill`;
+  async remove(id: number) {
+    return await this.BillModel.findByIdAndDelete(id);
   }
 }

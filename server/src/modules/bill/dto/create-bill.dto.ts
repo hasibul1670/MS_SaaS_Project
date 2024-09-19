@@ -125,5 +125,6 @@ export class CreateBillDto {
   @IsArray({ message: 'billInfo must be an array' })
   itemizedInfo: itemizedInfoDto[];
 
+  @IsOptional()
   partialPaymentData: partialPaymentDataDto[];
 }
