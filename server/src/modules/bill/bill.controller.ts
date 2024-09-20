@@ -30,9 +30,9 @@ export class BillController {
 
   @Get()
   async findAll(
-    @Query('page') page,
-    @Query('limit') limit,
-    @Query('search') search?,
+    @Query('page') page: any,
+    @Query('limit') limit: any,
+    @Query('search') search?: any,
   ) {
     const res = await this.billService.findAll({ page, limit, search });
     return createApiResponse(

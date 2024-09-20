@@ -40,8 +40,9 @@ export class BillService {
     const query = search
       ? {
           $or: [
-            { name: new RegExp(search, 'i') },
-            { description: new RegExp(search, 'i') },
+            { billId: new RegExp(search, 'i') },
+            { 'billTo.contactNumber': new RegExp(search, 'i') },
+            { 'billTo.email': new RegExp(search, 'i') },
           ],
         }
       : {};
@@ -87,6 +88,6 @@ export class BillService {
   }
 
   async remove(id: number) {
-    return await this.BillModel.findByIdAndDelete(id);
+    return await this.BillModel.findOneAndDelete({ billId: id });
   }
 }
